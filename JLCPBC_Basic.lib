@@ -1,0 +1,342 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 100
+#
+DEF 100 R 0 40 N Y 1 F N
+F0 "R" -70 80 50 H V C CNN
+F1 "100" -5 -5 50 H V C CNN
+F2 "SamacSys_Parts:R_0805_JLCPCB" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+F4 "C17408" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+S -100 40 100 -40 0 1 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 B
+X ~ 2 150 0 50 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# 100nF50V
+#
+DEF 100nF50V C 0 30 N Y 1 F N
+F0 "C" 250 250 50 H V L CNN
+F1 "100nF50V" 250 150 50 H V L CNN
+F2 "CAPC3216X100N" 250 50 50 H I L CNN
+F3 "" 250 -50 50 H I L CNN
+F4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" 250 -150 50 H I L CNN "Description"
+F5 "1" 250 -250 50 H I L CNN "Height"
+F6 "Samsung Electro-Mechanics" 250 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL31B104KBCNNNC" 255 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "CL31B104KBCNNNC" 255 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" 255 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "N/A" 255 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" 255 -850 50 H I L CNN "Mouser Price/Stock"
+F12 "C24497" 15 -170 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 0 1 6 100 0 120 0 N
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 180 0 200 0 N
+P 2 0 1 6 180 100 180 -100 N
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 10k
+#
+DEF 10k R 0 30 N Y 1 F N
+F0 "R" 50 100 50 H V L CNN
+F1 "10k" 50 -100 50 H V L CNN
+F2 "SamacSys_Parts:R_0402_JLCPCB" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS" 550 -150 50 H I L CNN "Description"
+F5 "0.4" 550 -250 50 H I L CNN "Height"
+F6 "UNI-ROYAL(Uniroyal Elec)" 550 -550 50 H I L CNN "Manufacturer_Name"
+F7 "0402WGF1002TCE" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F8 "C25744" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+S 250 -40 50 40 1 1 10 N
+X ~ 1 0 0 50 R 50 50 1 1 P
+X ~ 2 300 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10nF50V
+#
+DEF 10nF50V C 0 30 N Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "10nF50V" 350 150 50 H V L CNN
+F2 "CAPC2012X65N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" 350 -150 50 H I L CNN "Description"
+F5 "0.65" 350 -250 50 H I L CNN "Height"
+F6 "N/A" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Samsung Electro-Mechanics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CL21B103KBANNNC" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+F10 "C1710" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 10uF25V
+#
+DEF 10uF25V C 0 30 N Y 1 F N
+F0 "C" 250 250 50 H V L CNN
+F1 "10uF25V" 250 150 50 H V L CNN
+F2 "CAPC2012X145N" 250 50 50 H I L CNN
+F3 "" 250 -50 50 H I L CNN
+F4 "Samsung" 250 -150 50 H I L CNN "Description"
+F5 "1.45" 250 -250 50 H I L CNN "Height"
+F6 "N/A" 250 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" 250 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Samsung Electro-Mechanics" 250 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CL21A106KAYNNNE" 250 -650 50 H I L CNN "Manufacturer_Part_Number"
+F10 "C15850" 0 -150 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 0 1 6 100 0 120 0 N
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 180 0 200 0 N
+P 2 0 1 6 180 100 180 -100 N
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 1uF50V
+#
+DEF 1uF50V C 0 30 N Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "1uF50V" 350 150 50 H V L CNN
+F2 "CAPC2012X135N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" 350 -150 50 H I L CNN "Description"
+F5 "1.35" 350 -250 50 H I L CNN "Height"
+F6 "N/A" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Samsung Electro-Mechanics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CL21B105KBFNNNE" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+F10 "C28323" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 2.2nF50V
+#
+DEF 2.2nF50V C 0 30 N Y 1 F N
+F0 "C" 250 250 50 H V L CNN
+F1 "2.2nF50V" 250 150 50 H V L CNN
+F2 "CAPC2012X135N" 250 50 50 H I L CNN
+F3 "" 250 -50 50 H I L CNN
+F4 "Samsung Electro-Mechanics 0805 (2012M) 2.2nF MLCC 50V dc +/-5% SMD CL21C222JBFNNNE" 250 -150 50 H I L CNN "Description"
+F5 "1.35" 250 -250 50 H I L CNN "Height"
+F6 "Samsung Electro-Mechanics" 250 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL21C222JBFNNNE" 250 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "CL21C222JBFNNNE" 250 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/cl21c222jbfnnne/samsung-electro-mechanics" 250 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "C28260" -50 -195 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 0 1 6 100 0 120 0 N
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 180 0 200 0 N
+P 2 0 1 6 180 100 180 -100 N
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 2.2uF50V
+#
+DEF 2.2uF50V C 0 30 N Y 1 F N
+F0 "C" 250 250 50 H V L CNN
+F1 "2.2uF50V" 250 150 50 H V L CNN
+F2 "CAPC3216X180N" 250 50 50 H I L CNN
+F3 "" 250 -50 50 H I L CNN
+F4 "Cap Ceramic 2.2uF 50V X7R 10% Pad SMD 1206 125C T/R" 250 -150 50 H I L CNN "Description"
+F5 "1.8" 250 -250 50 H I L CNN "Height"
+F6 "Samsung Electro-Mechanics" 250 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL31B225KBHNNNE" 250 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "CL31B225KBHNNNE" 250 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/cl31b225kbhnnne/samsung-electro-mechanics" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "N/A" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D" 350 -850 50 H I L CNN "Mouser Price/Stock"
+F12 "C50254" -50 -160 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 0 1 6 100 0 120 0 N
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 180 0 200 0 N
+P 2 0 1 6 180 100 180 -100 N
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 220
+#
+DEF 220 R 0 40 N Y 1 F N
+F0 "R" -70 80 50 H V C CNN
+F1 "220" -5 -5 50 H V C CNN
+F2 "SamacSys_Parts:R_0402_JLCPCB" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+F4 "C25091" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+S -100 40 100 -40 0 1 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 B
+X ~ 2 150 0 50 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# 22uF25V
+#
+DEF 22uF25V C 0 30 N Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "22uF25V" 350 150 50 H V L CNN
+F2 "CAPC2012X140N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Samsung" 350 -150 50 H I L CNN "Description"
+F5 "1.4" 350 -250 50 H I L CNN "Height"
+F6 "Samsung Electro-Mechanics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL21A226MAQNNNE" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "CL21A226MAQNNNE" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/cl21a226maqnnne/samsung-electro-mechanics" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "N/A" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A226MAQNNNE?qs=yOVawPpwOwn5SPpGykCwnw%3D%3D" 350 -850 50 H I L CNN "Mouser Price/Stock"
+F12 "C45783" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 47
+#
+DEF 47 R 0 30 N Y 1 F N
+F0 "R" 50 100 50 H V L CNN
+F1 "47" 50 -100 50 H V L CNN
+F2 "SamacSys_Parts:R_0805_JLCPCB" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "Chip Resistor - Surface Mount 47Ohms ±1% 1/8W 0805 RoHS" 550 -150 50 H I L CNN "Description"
+F5 "UNI-ROYAL(Uniroyal Elec)" 550 -550 50 H I L CNN "Manufacturer_Name"
+F6 "0805W8F470JT5E" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F7 "C17714" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+S 250 -40 50 40 1 1 10 N
+X ~ 1 0 0 50 R 50 50 1 1 P
+X ~ 2 300 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 470
+#
+DEF 470 R 0 40 N Y 1 F N
+F0 "R" -70 80 50 H V C CNN
+F1 "470" -5 -5 50 H V C CNN
+F2 "SamacSys_Parts:R_0805_JLCPCB" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+F4 "C17710" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+S -100 40 100 -40 0 1 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 B
+X ~ 2 150 0 50 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# AMS1117-3.3
+#
+DEF AMS1117-3.3 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "AMS1117-3.3" 1150 200 50 H V L CNN
+F2 "SOT229P700X180-4N" 1150 100 50 H I L CNN
+F3 "" 1150 0 50 H I L CNN
+F4 "1A LOW DROPOUT VOLTAGE REGULATOR, SOT-223" 1150 -100 50 H I L CNN "Description"
+F5 "1.8" 1150 -200 50 H I L CNN "Height"
+F6 "Advanced Monolithic Systems" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F7 "AMS1117-3.3" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+F8 "C6186" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+X GND 1 0 0 200 R 50 50 0 0 P
+X VOUT_1 2 0 -100 200 R 50 50 0 0 P
+X VIN 3 0 -200 200 R 50 50 0 0 P
+X VOUT_2 4 1300 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# AMS1117-5.0
+#
+DEF AMS1117-5.0 IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "AMS1117-5.0" 1350 200 50 H V L CNN
+F2 "SOT229P700X180-4N" 1350 100 50 H I L CNN
+F3 "" 1350 0 50 H I L CNN
+F4 "1A LOW DROPOUT VOLTAGE REGULATOR" 1350 -100 50 H I L CNN "Description"
+F5 "1.8" 1350 -200 50 H I L CNN "Height"
+F6 "Advanced Monolithic Systems" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F7 "AMS1117-5.0" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+F8 "C6187" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -300 200 -300 200 100 N
+X GROUND/ADJUST 1 0 0 200 R 50 50 0 0 W
+X VOUT 2 0 -100 200 R 50 50 0 0 w
+X VIN 3 0 -200 200 R 50 50 0 0 W
+X TAB 4 1500 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# LED_RED
+#
+DEF LED_RED U 0 40 N Y 1 F N
+F0 "U" -100 100 50 H V C CNN
+F1 "LED_RED" 0 -150 50 H V C CNN
+F2 "LED_SMD:LED_0603_1608Metric" 0 -250 50 H I C CNN
+F3 "" -150 -50 50 H I C CNN
+F4 "C2286" 0 -250 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 1 1 10 -50 -50 -50 50 N
+P 2 1 1 0 -50 0 50 0 N
+P 4 1 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 1 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 1 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SM4007PL
+#
+DEF SM4007PL D 0 30 Y Y 1 F N
+F0 "D" 100 100 50 H V L CNN
+F1 "SM4007PL" 50 -100 33 H V L CNN
+F2 "SODFL3718X125N" 800 0 50 H I L CNN
+F3 "" 450 -100 50 H I L CNN
+F4 "1kV 1A 1.1V @ 1A SOD-123FL Diodes - General Purpose RoHS" 450 -200 50 H I L CNN "Description"
+F5 "1.25" 450 -300 50 H I L CNN "Height"
+F6 "MDD(Microdiode Electronics)" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "SM4007PL" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "C64898" 150 -200 50 H I C CNN "JLCPCB Part Number"
+DRAW
+P 2 1 1 10 100 50 100 -50 N
+P 2 1 1 0 200 0 100 0 N
+P 4 1 1 10 200 50 200 -50 100 0 200 50 N
+X ~ 1 0 0 100 R 50 50 1 1 P
+X ~ 2 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24.576MHz
+D SMD OSCILLATORS(XO) 24.576MHZ ±25PPM SMD-3225_4P ROHS
+F https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-O322524576MEEA4SC_C27869.pdf
+$ENDCMP
+#
+$CMP 6N138
+D Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8
+K darlington optocoupler
+F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
+$ENDCMP
+#
+$CMP 6N139
+D Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 18V VDD, DIP-8
+K darlington optocoupler
+F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
+$ENDCMP
+#
+$CMP MIMXRT1021DAF5A
+D NXP - MIMXRT1021DAF5A - MPU, 32BIT, 500MHZ, LQFP-100
+F http://www.nxp.com/docs/en/data-sheet/IMXRT1020CEC.pdf
+$ENDCMP
+#
+$CMP PCM1803ADBR
+D 103dB SNR Stereo ADC With Single-Ended Inputs
+F http://www.ti.com/lit/gpn/pcm1803a
+$ENDCMP
+#
+$CMP PCM5102APWR
+D 2VRMS DirectPath&#153;, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface
+F https://componentsearchengine.com/Datasheets/2/PCM5102APWR.pdf
+$ENDCMP
+#
+#End Doc Library

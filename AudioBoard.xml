@@ -1,0 +1,2070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\M47\Documents\Sync\Projects\AudioBoard\AudioBoard.sch</source>
+    <date>11-Aug-20 23:22:12</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>AudioBoard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet5F605663/" tstamps="/5F605664/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Placeholders for IO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MIDI/" tstamps="/5F699A2B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MIDI.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Audio IO (I2S)/" tstamps="/5F29F5CC/">
+      <title_block>
+        <title>I2S ADC/DAC and connectors</title>
+        <company/>
+        <rev/>
+        <date>2020-08-06</date>
+        <source>AudioIO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Stef van Son"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>22uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X140N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A226MAQNNNE.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL21A226MAQNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl21a226maqnnne/samsung-electro-mechanics</field>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.4</field>
+        <field name="JLCPCB Part Number">C45783</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A226MAQNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A226MAQNNNE?qs=yOVawPpwOwn5SPpGykCwnw%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="22uF25V" description="Samsung Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 25V 0805 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5D1EB1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X140N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A226MAQNNNE.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL21A226MAQNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl21a226maqnnne/samsung-electro-mechanics</field>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.4</field>
+        <field name="JLCPCB Part Number">C45783</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A226MAQNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A226MAQNNNE?qs=yOVawPpwOwn5SPpGykCwnw%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="22uF25V" description="Samsung Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 25V 0805 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5D1EC4</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>UART_OPT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5F8EA6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>I2S2_OPT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F60298E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SPI_OPT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6465AB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Teensy4.0</value>
+      <footprint>teensy:Teensy40</footprint>
+      <libsource lib="teensy" part="Teensy4.0" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3270DA</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>POWER_SWITCH</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C6AB9</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>163-179PH-EX</value>
+      <footprint>SamacSys_Parts:163179PHEX</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf</datasheet>
+      <fields>
+        <field name="Description">DC Power Connectors PCB 2.1MM</field>
+        <field name="Height">11</field>
+        <field name="Manufacturer_Name">Kobiconn</field>
+        <field name="Manufacturer_Part_Number">163-179PH-EX</field>
+        <field name="Mouser Part Number">163-179PH-EX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="163-179PH-EX" description="DC Power Connectors PCB 2.1MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6CA749</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Other Teensy pins</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F3039</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>AMS1117-5.0</value>
+      <footprint>SamacSys_Parts:SOT229P700X180-4N</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="Description">1A LOW DROPOUT VOLTAGE REGULATOR</field>
+        <field name="Height">1.8</field>
+        <field name="JLCPCB Part Number">C6187</field>
+        <field name="Manufacturer_Name">Advanced Monolithic Systems</field>
+        <field name="Manufacturer_Part_Number">AMS1117-5.0</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="AMS1117-5.0" description="1A LOW DROPOUT VOLTAGE REGULATOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5D1EA0</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>POT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6067DD</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F606984</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F608EC4</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>POT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F60F174</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F60F181</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F60F19C</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>POT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6113B5</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6113C2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6113DD</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>POT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F613215</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F613222</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F61323D</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>POT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6149C5</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6149D2</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6149ED</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>POT</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F617686</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F617693</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F6176AE</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>EXTRA_POWER</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet5F605663/" tstamps="/5F605664/"/>
+      <tstamp>5F659A1F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>6N138SDM</value>
+      <footprint>Package_DIP:SMDIP-8_W9.53mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1812222331_ON-Semicon-ON-6N138SDM_C188666.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part Number">C188666</field>
+      </fields>
+      <libsource lib="JLCPCB_Extended" part="6N138SDM" description="Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F69BED5</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <footprint>SamacSys_Parts:R_0402_JLCPCB</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part Number">C25091</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="220" description="Uniroyal Chip Resistor - Surface Mount 220Ohms ±1% 1/16W 0402 RoHS"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F69BEDC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>SamacSys_Parts:R_0402_JLCPCB</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part Number">C25091</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="220" description="Uniroyal Chip Resistor - Surface Mount 220Ohms ±1% 1/16W 0402 RoHS"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F69BEE4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>SamacSys_Parts:R_0402_JLCPCB</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</datasheet>
+      <fields>
+        <field name="Description">Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS</field>
+        <field name="Height">0.4</field>
+        <field name="JLCPCB Part Number">C25744</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0402WGF1002TCE</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10k" description="Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F69BEFD</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SM4007PL</value>
+      <footprint>SamacSys_Parts:SODFL3718X125N</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf</datasheet>
+      <fields>
+        <field name="Description">1kV 1A 1.1V @ 1A SOD-123FL Diodes - General Purpose RoHS</field>
+        <field name="Height">1.25</field>
+        <field name="JLCPCB Part Number">C64898</field>
+        <field name="Manufacturer_Name">MDD(Microdiode Electronics)</field>
+        <field name="Manufacturer_Part_Number">SM4007PL</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="SM4007PL" description="1kV 1A 1.1V @ 1A SOD-123FL Diodes - General Purpose RoHS"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F69BF19</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>57PC5F</value>
+      <footprint>SamacSys_Parts:57PC5F</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/57PC5F_CD.pdf</datasheet>
+      <fields>
+        <field name="Description">Switchcraft 57PC Series, 5 Pole Right Angle Din Socket, 3A, 34 V dc</field>
+        <field name="Height">21</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">57PC5F</field>
+        <field name="Mouser Part Number">502-57PC5F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Switchcraft/57PC5F?qs=MW%252B0w7tSdpkWuZd7MBoFPA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="57PC5F" description="Switchcraft 57PC Series, 5 Pole Right Angle Din Socket, 3A, 34 V dc"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F69C5D0</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>57PC5F</value>
+      <footprint>SamacSys_Parts:57PC5F</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/57PC5F_CD.pdf</datasheet>
+      <fields>
+        <field name="Description">Switchcraft 57PC Series, 5 Pole Right Angle Din Socket, 3A, 34 V dc</field>
+        <field name="Height">21</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">57PC5F</field>
+        <field name="Mouser Part Number">502-57PC5F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Switchcraft/57PC5F?qs=MW%252B0w7tSdpkWuZd7MBoFPA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="57PC5F" description="Switchcraft 57PC Series, 5 Pole Right Angle Din Socket, 3A, 34 V dc"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F6AED33</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F470JT5E_C17714.pdf</datasheet>
+      <fields>
+        <field name="Description">Chip Resistor - Surface Mount 47Ohms ±1% 1/8W 0805 RoHS</field>
+        <field name="JLCPCB Part Number">C17714</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0805W8F470JT5E</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="47" description="Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F6B545F</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F470JT5E_C17714.pdf</datasheet>
+      <fields>
+        <field name="Description">Chip Resistor - Surface Mount 47Ohms ±1% 1/8W 0805 RoHS</field>
+        <field name="JLCPCB Part Number">C17714</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0805W8F470JT5E</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="47" description="Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS"/>
+      <sheetpath names="/MIDI/" tstamps="/5F699A2B/"/>
+      <tstamp>5F6B6CD0</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X145N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</datasheet>
+      <fields>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="JLCPCB Part Number">C15850</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10uF25V" description="Samsung"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2AB0C2</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X100N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="JLCPCB Part Number">C24497</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100nF50V" description="Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2ADD55</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X145N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</datasheet>
+      <fields>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="JLCPCB Part Number">C15850</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10uF25V" description="Samsung"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2B4AF1</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X100N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="JLCPCB Part Number">C24497</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100nF50V" description="Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2B4E0C</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100nF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X100N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="JLCPCB Part Number">C24497</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100nF50V" description="Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2C880E</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X145N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</datasheet>
+      <fields>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="JLCPCB Part Number">C15850</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10uF25V" description="Samsung"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2C984F</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2CD852</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>470</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <fields>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="470" description="Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2CE4F4</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>2.2nF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://www.arrow.com/en/products/cl21c222jbfnnne/samsung-electro-mechanics</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL21C222JBFNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl21c222jbfnnne/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0805 (2012M) 2.2nF MLCC 50V dc +/-5% SMD CL21C222JBFNNNE</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28260</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21C222JBFNNNE</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="2.2nF50V" description="Samsung Electro-Mechanics 0805 (2012M) 2.2nF MLCC 50V dc +/-5% SMD CL21C222JBFNNNE"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2CF3CE</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>2.2nF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://www.arrow.com/en/products/cl21c222jbfnnne/samsung-electro-mechanics</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL21C222JBFNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl21c222jbfnnne/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0805 (2012M) 2.2nF MLCC 50V dc +/-5% SMD CL21C222JBFNNNE</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28260</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21C222JBFNNNE</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="2.2nF50V" description="Samsung Electro-Mechanics 0805 (2012M) 2.2nF MLCC 50V dc +/-5% SMD CL21C222JBFNNNE"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2D0E68</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>2.2uF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X180N</footprint>
+      <datasheet>https://www.arrow.com/en/products/cl31b225kbhnnne/samsung-electro-mechanics</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B225KBHNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b225kbhnnne/samsung-electro-mechanics</field>
+        <field name="Description">Cap Ceramic 2.2uF 50V X7R 10% Pad SMD 1206 125C T/R</field>
+        <field name="Height">1.8</field>
+        <field name="JLCPCB Part Number">C50254</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B225KBHNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="2.2uF50V" description="Cap Ceramic 2.2uF 50V X7R 10% Pad SMD 1206 125C T/R"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2DAEE8</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X100N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="JLCPCB Part Number">C24497</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100nF50V" description="Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2DF691</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>10uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X145N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</datasheet>
+      <fields>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="JLCPCB Part Number">C15850</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10uF25V" description="Samsung"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2E04DE</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>2.2uF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X180N</footprint>
+      <datasheet>https://www.arrow.com/en/products/cl31b225kbhnnne/samsung-electro-mechanics</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B225KBHNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b225kbhnnne/samsung-electro-mechanics</field>
+        <field name="Description">Cap Ceramic 2.2uF 50V X7R 10% Pad SMD 1206 125C T/R</field>
+        <field name="Height">1.8</field>
+        <field name="JLCPCB Part Number">C50254</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B225KBHNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="2.2uF50V" description="Cap Ceramic 2.2uF 50V X7R 10% Pad SMD 1206 125C T/R"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F2D8928</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>PCM5102APWR</value>
+      <footprint>SamacSys_Parts:SOP65P640X120-20N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/pcm5102a.pdf?ts=1597152614927&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DPCM5102APWR</datasheet>
+      <fields>
+        <field name="Description">2VRMS DirectPath&amp;#153;, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface</field>
+        <field name="Height">1.2</field>
+        <field name="JLCPCB Part Number">C107671</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">PCM5102APWR</field>
+        <field name="Mouser Part Number">595-PCM5102APWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCM5102APWR?qs=E2%2FxqS9xjzrfECkwEYoiyg%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPCB_Extended" part="PCM5102APWR" description="2VRMS DirectPath&amp;#153;, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F3037FD</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>PCM1803ADBR</value>
+      <footprint>SamacSys_Parts:SOP65P780X200-20N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/pcm1803a</datasheet>
+      <fields>
+        <field name="Description">103dB SNR Stereo ADC With Single-Ended Inputs</field>
+        <field name="Height">2</field>
+        <field name="JLCPCB Part Number">C32076</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">PCM1803ADBR</field>
+        <field name="Mouser Part Number">595-PCM1803ADBR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCM1803ADBR?qs=wgAEGBTxy7nX6GR2YkrVsA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPCB_Extended" part="PCM1803ADBR" description="103dB SNR Stereo ADC With Single-Ended Inputs"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F331841</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100nF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X100N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="JLCPCB Part Number">C24497</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100nF50V" description="Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F324AE0</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X145N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</datasheet>
+      <fields>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="JLCPCB Part Number">C15850</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10uF25V" description="Samsung"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F32ACCB</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F34F6FD</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1uF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X135N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</datasheet>
+      <fields>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="JLCPCB Part Number">C28323</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="1uF50V" description="SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F35084A</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1000T5E_C17408.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part Number">C17408</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100" description="Uniroyal CHIP RESISTOR - SURFACE MOUNT 100OHMS ±1% 1/8W 0805 ROHS"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F3590B8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100</value>
+      <footprint>SamacSys_Parts:R_0805_JLCPCB</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1000T5E_C17408.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part Number">C17408</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100" description="Uniroyal CHIP RESISTOR - SURFACE MOUNT 100OHMS ±1% 1/8W 0805 ROHS"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F35CDBF</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10nF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X65N</footprint>
+      <fields>
+        <field name="Description">Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.65</field>
+        <field name="JLCPCB Part Number">C1710</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B103KBANNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10nF50V" description="Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F36FDA4</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10nF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X65N</footprint>
+      <fields>
+        <field name="Description">Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.65</field>
+        <field name="JLCPCB Part Number">C1710</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B103KBANNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10nF50V" description="Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F3707D8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>24.576MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-O322524576MEEA4SC_C27869.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part Number">C27869</field>
+      </fields>
+      <libsource lib="JLCPCB_Extended" part="24.576MHz" description="SMD OSCILLATORS(XO) 24.576MHZ ±25PPM SMD-3225_4P ROHS"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F3971E3</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>10nF50V</value>
+      <footprint>SamacSys_Parts:CAPC2012X65N</footprint>
+      <fields>
+        <field name="Description">Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.65</field>
+        <field name="JLCPCB Part Number">C1710</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B103KBANNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10nF50V" description="Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F3B2686</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>MODE1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F4B9854</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>BYPAS</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NO_Small" description="Jumper, normally open, small symbol"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F4C0988</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X100N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="JLCPCB Part Number">C24497</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100nF50V" description="Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F309939</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X145N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</datasheet>
+      <fields>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="JLCPCB Part Number">C15850</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10uF25V" description="Samsung"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F30470E</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>MODE0</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Jumper_NC_Small" description="Jumper, normally closed, small symbol"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F51664A</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100nF50V</value>
+      <footprint>SamacSys_Parts:CAPC3216X100N</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="JLCPCB Part Number">C24497</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="100nF50V" description="Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F570268</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10uF25V</value>
+      <footprint>SamacSys_Parts:CAPC2012X145N</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</datasheet>
+      <fields>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="JLCPCB Part Number">C15850</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+      </fields>
+      <libsource lib="JLCPBC_Basic" part="10uF25V" description="Samsung"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F57098F</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>RCA_2x2</value>
+      <footprint>SamacSys_Parts:PJRAS2X2S01X</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/pjras2x2s__x_series_cd.pdf</datasheet>
+      <fields>
+        <field name="Description">RCA Phono Connectors 4P R/A PHONO JACK</field>
+        <field name="Height">28</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">PJRAS2X2S01X</field>
+        <field name="Mouser Part Number">502-PJRAS2X2S01X</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Switchcraft/PJRAS2X2S01X?qs=mcPJWgAPNreoO8Qz1%2FWyRA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="RCA_2x2" description="RCA Phono Connectors 4P R/A PHONO JACK"/>
+      <sheetpath names="/Audio IO (I2S)/" tstamps="/5F29F5CC/"/>
+      <tstamp>5F7617F4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NC_Small">
+      <description>Jumper, normally closed, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Jumper_NO_Small">
+      <description>Jumper, normally open, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="100">
+      <description>Uniroyal CHIP RESISTOR - SURFACE MOUNT 100OHMS ±1% 1/8W 0805 ROHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1000T5E_C17408.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100</field>
+        <field name="Footprint">SamacSys_Parts:R_0805_JLCPCB</field>
+        <field name="JLCPCB Part Number">C17408</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="100nF50V">
+      <description>Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF50V</field>
+        <field name="Footprint">CAPC3216X100N</field>
+        <field name="Description">Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Part Number">CL31B104KBCNNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D</field>
+        <field name="JLCPCB Part Number">C24497</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="10k">
+      <description>Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">SamacSys_Parts:R_0402_JLCPCB</field>
+        <field name="Description">Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS</field>
+        <field name="Height">0.4</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0402WGF1002TCE</field>
+        <field name="JLCPCB Part Number">C25744</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="10nF50V">
+      <description>Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10nF50V</field>
+        <field name="Footprint">CAPC2012X65N</field>
+        <field name="Description">Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.65</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B103KBANNNC</field>
+        <field name="JLCPCB Part Number">C1710</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="10uF25V">
+      <description>Samsung</description>
+      <docs>http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF25V</field>
+        <field name="Footprint">CAPC2012X145N</field>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A106KAYNNNE</field>
+        <field name="JLCPCB Part Number">C15850</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="1uF50V">
+      <description>SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF50V</field>
+        <field name="Footprint">CAPC2012X135N</field>
+        <field name="Description">SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD</field>
+        <field name="Height">1.35</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21B105KBFNNNE</field>
+        <field name="JLCPCB Part Number">C28323</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="2.2nF50V">
+      <description>Samsung Electro-Mechanics 0805 (2012M) 2.2nF MLCC 50V dc +/-5% SMD CL21C222JBFNNNE</description>
+      <docs>https://www.arrow.com/en/products/cl21c222jbfnnne/samsung-electro-mechanics</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2nF50V</field>
+        <field name="Footprint">CAPC2012X135N</field>
+        <field name="Description">Samsung Electro-Mechanics 0805 (2012M) 2.2nF MLCC 50V dc +/-5% SMD CL21C222JBFNNNE</field>
+        <field name="Height">1.35</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21C222JBFNNNE</field>
+        <field name="Arrow Part Number">CL21C222JBFNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl21c222jbfnnne/samsung-electro-mechanics</field>
+        <field name="JLCPCB Part Number">C28260</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="2.2uF50V">
+      <description>Cap Ceramic 2.2uF 50V X7R 10% Pad SMD 1206 125C T/R</description>
+      <docs>https://www.arrow.com/en/products/cl31b225kbhnnne/samsung-electro-mechanics</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uF50V</field>
+        <field name="Footprint">CAPC3216X180N</field>
+        <field name="Description">Cap Ceramic 2.2uF 50V X7R 10% Pad SMD 1206 125C T/R</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL31B225KBHNNNE</field>
+        <field name="Arrow Part Number">CL31B225KBHNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl31b225kbhnnne/samsung-electro-mechanics</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B225KBHNNNE?qs=349EhDEZ59oNolj3jR402w%3D%3D</field>
+        <field name="JLCPCB Part Number">C50254</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="220">
+      <description>Uniroyal Chip Resistor - Surface Mount 220Ohms ±1% 1/16W 0402 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2200TCE_C25091.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">220</field>
+        <field name="Footprint">SamacSys_Parts:R_0402_JLCPCB</field>
+        <field name="JLCPCB Part Number">C25091</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="22uF25V">
+      <description>Samsung Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 25V 0805 RoHS</description>
+      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A226MAQNNNE.jsp</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF25V</field>
+        <field name="Footprint">CAPC2012X140N</field>
+        <field name="Description">Samsung</field>
+        <field name="Height">1.4</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL21A226MAQNNNE</field>
+        <field name="Arrow Part Number">CL21A226MAQNNNE</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl21a226maqnnne/samsung-electro-mechanics</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A226MAQNNNE?qs=yOVawPpwOwn5SPpGykCwnw%3D%3D</field>
+        <field name="JLCPCB Part Number">C45783</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="47">
+      <description>Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F470JT5E_C17714.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">47</field>
+        <field name="Footprint">SamacSys_Parts:R_0805_JLCPCB</field>
+        <field name="Description">Chip Resistor - Surface Mount 47Ohms ±1% 1/8W 0805 RoHS</field>
+        <field name="Manufacturer_Name">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer_Part_Number">0805W8F470JT5E</field>
+        <field name="JLCPCB Part Number">C17714</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="470">
+      <description>Uniroyal 470 ±1% 1/8W ±100ppm/°C 0805 Chip Resistor - Surface Mount RoHS 0805W8F4700T5E</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">470</field>
+        <field name="Footprint">SamacSys_Parts:R_0805_JLCPCB</field>
+        <field name="JLCPCB Part Number">C17710</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="AMS1117-5.0">
+      <description>1A LOW DROPOUT VOLTAGE REGULATOR</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AMS1117-5.0</field>
+        <field name="Footprint">SOT229P700X180-4N</field>
+        <field name="Description">1A LOW DROPOUT VOLTAGE REGULATOR</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Advanced Monolithic Systems</field>
+        <field name="Manufacturer_Part_Number">AMS1117-5.0</field>
+        <field name="JLCPCB Part Number">C6187</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GROUND/ADJUST" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="TAB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPBC_Basic" part="SM4007PL">
+      <description>1kV 1A 1.1V @ 1A SOD-123FL Diodes - General Purpose RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM4007PL</field>
+        <field name="Footprint">SODFL3718X125N</field>
+        <field name="Description">1kV 1A 1.1V @ 1A SOD-123FL Diodes - General Purpose RoHS</field>
+        <field name="Height">1.25</field>
+        <field name="Manufacturer_Name">MDD(Microdiode Electronics)</field>
+        <field name="Manufacturer_Part_Number">SM4007PL</field>
+        <field name="JLCPCB Part Number">C64898</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB_Extended" part="24.576MHz">
+      <description>SMD OSCILLATORS(XO) 24.576MHZ ±25PPM SMD-3225_4P ROHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-O322524576MEEA4SC_C27869.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24.576MHz</field>
+        <field name="Footprint">Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</field>
+        <field name="JLCPCB Part Number">C27869</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="OUT" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB_Extended" part="6N138SDM">
+      <aliases>
+        <alias>6N139</alias>
+      </aliases>
+      <description>Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/1812222331_ON-Semicon-ON-6N138SDM_C188666.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6N138SDM</field>
+        <field name="Footprint">Package_DIP:SMDIP-8_W9.53mm</field>
+        <field name="JLCPCB Part Number">C188666</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="C1" type="passive"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VO2" type="passive"/>
+        <pin num="7" name="VO1" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB_Extended" part="PCM1803ADBR">
+      <description>103dB SNR Stereo ADC With Single-Ended Inputs</description>
+      <docs>http://www.ti.com/lit/gpn/pcm1803a</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PCM1803ADBR</field>
+        <field name="Footprint">SOP65P780X200-20N</field>
+        <field name="Description">103dB SNR Stereo ADC With Single-Ended Inputs</field>
+        <field name="Height">2</field>
+        <field name="Mouser Part Number">595-PCM1803ADBR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCM1803ADBR?qs=wgAEGBTxy7nX6GR2YkrVsA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">PCM1803ADBR</field>
+        <field name="JLCPCB Part Number">C32076</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VINL" type="passive"/>
+        <pin num="2" name="VINR" type="passive"/>
+        <pin num="3" name="VREF1" type="passive"/>
+        <pin num="4" name="VREF2" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="AGND" type="passive"/>
+        <pin num="7" name="~PDWN" type="passive"/>
+        <pin num="8" name="BYPAS" type="passive"/>
+        <pin num="9" name="TEST" type="passive"/>
+        <pin num="10" name="LRCK" type="passive"/>
+        <pin num="11" name="BCK" type="passive"/>
+        <pin num="12" name="DOUT" type="passive"/>
+        <pin num="13" name="DGND" type="passive"/>
+        <pin num="14" name="VDD" type="passive"/>
+        <pin num="15" name="SCKI" type="passive"/>
+        <pin num="16" name="OSR" type="passive"/>
+        <pin num="17" name="FMT0" type="passive"/>
+        <pin num="18" name="FMT1" type="passive"/>
+        <pin num="19" name="MODE0" type="passive"/>
+        <pin num="20" name="MODE1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLCPCB_Extended" part="PCM5102APWR">
+      <description>2VRMS DirectPath&amp;#153;, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface</description>
+      <docs>https://www.ti.com/lit/ds/symlink/pcm5102a.pdf?ts=1597152614927&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DPCM5102APWR</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PCM5102APWR</field>
+        <field name="Footprint">SOP65P640X120-20N</field>
+        <field name="Description">2VRMS DirectPath&amp;#153;, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface</field>
+        <field name="Height">1.2</field>
+        <field name="Mouser Part Number">595-PCM5102APWR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PCM5102APWR?qs=E2%2FxqS9xjzrfECkwEYoiyg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">PCM5102APWR</field>
+        <field name="JLCPCB Part Number">C107671</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CPVDD" type="passive"/>
+        <pin num="2" name="CAPP" type="passive"/>
+        <pin num="3" name="CPGND" type="passive"/>
+        <pin num="4" name="CAPM" type="passive"/>
+        <pin num="5" name="VNEG" type="passive"/>
+        <pin num="6" name="OTL" type="passive"/>
+        <pin num="7" name="OUTR" type="passive"/>
+        <pin num="8" name="AVDD" type="passive"/>
+        <pin num="9" name="AGND" type="passive"/>
+        <pin num="10" name="DEMP" type="passive"/>
+        <pin num="11" name="FLT" type="passive"/>
+        <pin num="12" name="SCK" type="passive"/>
+        <pin num="13" name="BCK" type="passive"/>
+        <pin num="14" name="DIN" type="passive"/>
+        <pin num="15" name="LRCK" type="passive"/>
+        <pin num="16" name="FMT" type="passive"/>
+        <pin num="17" name="XSMT" type="passive"/>
+        <pin num="18" name="LDOO" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="DVDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="163-179PH-EX">
+      <description>DC Power Connectors PCB 2.1MM</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">163-179PH-EX</field>
+        <field name="Footprint">163179PHEX</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf</field>
+        <field name="Description">DC Power Connectors PCB 2.1MM</field>
+        <field name="Height">11</field>
+        <field name="Mouser Part Number">163-179PH-EX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Kobiconn/163-179PH-EX?qs=Xb8IjHhkxj5l2UOaIqcGCw%3D%3D</field>
+        <field name="Manufacturer_Name">Kobiconn</field>
+        <field name="Manufacturer_Part_Number">163-179PH-EX</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="passive"/>
+        <pin num="B" name="~" type="passive"/>
+        <pin num="C" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="57PC5F">
+      <description>Switchcraft 57PC Series, 5 Pole Right Angle Din Socket, 3A, 34 V dc</description>
+      <docs>http://www.switchcraft.com/Drawings/57PC5F_CD.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">57PC5F</field>
+        <field name="Footprint">57PC5F</field>
+        <field name="Datasheet">http://www.switchcraft.com/Drawings/57PC5F_CD.pdf</field>
+        <field name="Description">Switchcraft 57PC Series, 5 Pole Right Angle Din Socket, 3A, 34 V dc</field>
+        <field name="Height">21</field>
+        <field name="Mouser Part Number">502-57PC5F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Switchcraft/57PC5F?qs=MW%252B0w7tSdpkWuZd7MBoFPA%3D%3D</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">57PC5F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="GND_1" type="passive"/>
+        <pin num="7" name="GND_2" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="RCA_2x2">
+      <description>RCA Phono Connectors 4P R/A PHONO JACK</description>
+      <docs>http://www.switchcraft.com/Drawings/pjras2x2s__x_series_cd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RCA_2x2</field>
+        <field name="Footprint">PJRAS2X2S01X</field>
+        <field name="Description">RCA Phono Connectors 4P R/A PHONO JACK</field>
+        <field name="Height">28</field>
+        <field name="Mouser Part Number">502-PJRAS2X2S01X</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Switchcraft/PJRAS2X2S01X?qs=mcPJWgAPNreoO8Qz1%2FWyRA%3D%3D</field>
+        <field name="Manufacturer_Name">Switchcraft</field>
+        <field name="Manufacturer_Part_Number">PJRAS2X2S01X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="T11" type="passive"/>
+        <pin num="2" name="T12" type="passive"/>
+        <pin num="3" name="T21" type="passive"/>
+        <pin num="4" name="T22" type="passive"/>
+        <pin num="5" name="S1" type="passive"/>
+        <pin num="6" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="teensy" part="Teensy4.0">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy4.0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="0_RX1_CRX2_CS1" type="BiDi"/>
+        <pin num="3" name="1_TX1_CTX2_MISO1" type="BiDi"/>
+        <pin num="4" name="2_OUT2" type="BiDi"/>
+        <pin num="5" name="3_LRCLK2" type="BiDi"/>
+        <pin num="6" name="4_BCLK2" type="BiDi"/>
+        <pin num="7" name="5_IN2" type="BiDi"/>
+        <pin num="8" name="6_OUT1D" type="BiDi"/>
+        <pin num="9" name="7_RX2_OUT1A" type="BiDi"/>
+        <pin num="10" name="8_TX2_IN1" type="BiDi"/>
+        <pin num="11" name="9_OUT1C" type="BiDi"/>
+        <pin num="12" name="10_CS_MQSR" type="BiDi"/>
+        <pin num="13" name="11_MOSI_CTX1" type="BiDi"/>
+        <pin num="14" name="12_MISO_MQSL" type="BiDi"/>
+        <pin num="15" name="VBAT" type="power_in"/>
+        <pin num="16" name="3V3" type="power_in"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="PROGRAM" type="input"/>
+        <pin num="19" name="ON_OFF" type="input"/>
+        <pin num="20" name="13_SCK_CRX1_LED" type="BiDi"/>
+        <pin num="21" name="14_A0_TX3_SPDIF_OUT" type="BiDi"/>
+        <pin num="22" name="15_A1_RX3_SPDIF_IN" type="BiDi"/>
+        <pin num="23" name="16_A2_RX4_SCL1" type="BiDi"/>
+        <pin num="24" name="17_A3_TX4_SDA1" type="BiDi"/>
+        <pin num="25" name="18_A4_SDA0" type="BiDi"/>
+        <pin num="26" name="19_A5_SCL0" type="BiDi"/>
+        <pin num="27" name="20_A6_TX5_LRCLK1" type="BiDi"/>
+        <pin num="28" name="21_A7_RX5_BCLK1" type="BiDi"/>
+        <pin num="29" name="22_A8_CTX1" type="BiDi"/>
+        <pin num="30" name="23_A9_CRX1_MCLK1" type="BiDi"/>
+        <pin num="31" name="3V3" type="power_out"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="VIN" type="power_in"/>
+        <pin num="34" name="VUSB" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="JLCPBC_Basic">
+      <uri>C:\Users\M47\Documents\Sync\Projects\AudioBoard/JLCPBC_Basic.lib</uri>
+    </library>
+    <library logical="JLCPCB_Extended">
+      <uri>C:\Users\M47\Documents\Sync\Projects\AudioBoard/JLCPCB_Extended.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/M47/Documents/Sync/Projects/KiCad/LibraryLoader/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="teensy">
+      <uri>C:/Users/M47/Documents/Sync/Projects/KiCad/Teensy/teensy_library/teensy.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="IC3" pin="7"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="IC3" pin="14"/>
+      <node ref="IC3" pin="17"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="IC2" pin="20"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="IC2" pin="17"/>
+      <node ref="J2" pin="6"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="31"/>
+      <node ref="C9" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J3-Pad2)">
+      <node ref="U1" pin="18"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="5" name="/I2S_BCK">
+      <node ref="IC2" pin="13"/>
+      <node ref="U1" pin="28"/>
+      <node ref="IC3" pin="11"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="33"/>
+      <node ref="C26" pin="2"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J6" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J8" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="J7" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="IC2" pin="19"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J13" pin="7"/>
+      <node ref="U1" pin="32"/>
+      <node ref="IC2" pin="16"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="10"/>
+      <node ref="IC2" pin="11"/>
+      <node ref="IC2" pin="12"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J12" pin="3"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="IC2" pin="9"/>
+      <node ref="J13" pin="6"/>
+      <node ref="J15" pin="5"/>
+      <node ref="J15" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J5" pin="B"/>
+      <node ref="J5" pin="C"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="IC3" pin="18"/>
+      <node ref="C7" pin="2"/>
+      <node ref="IC3" pin="13"/>
+      <node ref="IC3" pin="16"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J9" pin="3"/>
+      <node ref="C29" pin="2"/>
+      <node ref="J14" pin="7"/>
+      <node ref="J14" pin="6"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J4" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J11" pin="3"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C28" pin="2"/>
+    </net>
+    <net code="9" name="/POT2">
+      <node ref="U1" pin="24"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="10" name="/POT3">
+      <node ref="R5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="11" name="/POT4">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="12" name="/POT5">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="13" name="/POT6">
+      <node ref="U1" pin="30"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad3)">
+      <node ref="U1" pin="13"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad3)">
+      <node ref="JP1" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="22" name="/I2S_DOUT">
+      <node ref="U1" pin="10"/>
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="23" name="/MIDI_IN">
+      <node ref="U2" pin="6"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="24" name="/MIDI_OUT">
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="25" name="/I2S2_DOUT">
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="26" name="/POT1">
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="27" name="/I2S_DIN">
+      <node ref="IC3" pin="12"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="28" name="/I2S_LRCK">
+      <node ref="IC3" pin="10"/>
+      <node ref="IC2" pin="15"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="29" name="/DC_IN">
+      <node ref="C1" pin="1"/>
+      <node ref="J5" pin="A"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="30" name="/I2S2_BCK">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="31" name="/I2S2_LRCK">
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="32" name="/I2S2_DIN">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="33" name="/UART_OPT_RX">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="34" name="/UART_OPT_TX">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="35" name="/Audio IO (I2S)/IN_R">
+      <node ref="IC3" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C18-Pad2)">
+      <node ref="IC3" pin="3"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C25-Pad2)">
+      <node ref="C25" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="38" name="/Audio IO (I2S)/JP_BYPAS">
+      <node ref="IC3" pin="8"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="39" name="Net-(C31-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C31" pin="2"/>
+    </net>
+    <net code="40" name="Net-(C11-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C12-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="42" name="/Audio IO (I2S)/IN_L">
+      <node ref="R12" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="43" name="Net-(C19-Pad1)">
+      <node ref="IC2" pin="2"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="45" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="46" name="Net-(C10-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="IC2" pin="18"/>
+    </net>
+    <net code="47" name="/Audio IO (I2S)/OUT_L">
+      <node ref="IC2" pin="6"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="48" name="/Audio IO (I2S)/OUT_R">
+      <node ref="R14" pin="1"/>
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="49" name="/Audio IO (I2S)/RCA_IN_R">
+      <node ref="C12" pin="1"/>
+      <node ref="J15" pin="3"/>
+    </net>
+    <net code="50" name="/Audio IO (I2S)/RCA_IN_L">
+      <node ref="J15" pin="4"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="51" name="/Audio IO (I2S)/RCA_OUT_L">
+      <node ref="J15" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="52" name="/Audio IO (I2S)/RCA_OUT_R">
+      <node ref="C28" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="53" name="/Audio IO (I2S)/SCK">
+      <node ref="IC3" pin="15"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="54" name="/Audio IO (I2S)/JP_MODE1">
+      <node ref="JP3" pin="2"/>
+      <node ref="IC3" pin="20"/>
+    </net>
+    <net code="55" name="/Audio IO (I2S)/JP_MODE0">
+      <node ref="JP2" pin="2"/>
+      <node ref="IC3" pin="19"/>
+    </net>
+    <net code="56" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="57" name="Net-(J10-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="58" name="Net-(J12-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="59" name="Net-(J8-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="60" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="61" name="Net-(J9-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="62" name="Net-(J14-Pad1)">
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="63" name="Net-(J14-Pad3)">
+      <node ref="J14" pin="3"/>
+    </net>
+    <net code="64" name="Net-(J14-Pad4)">
+      <node ref="J14" pin="4"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="65" name="Net-(J14-PadMH1)">
+      <node ref="J14" pin="MH1"/>
+    </net>
+    <net code="66" name="Net-(J14-PadMH2)">
+      <node ref="J14" pin="MH2"/>
+    </net>
+    <net code="67" name="Net-(J13-PadMH2)">
+      <node ref="J13" pin="MH2"/>
+    </net>
+    <net code="68" name="Net-(J13-PadMH1)">
+      <node ref="J13" pin="MH1"/>
+    </net>
+    <net code="69" name="Net-(J13-Pad3)">
+      <node ref="J13" pin="3"/>
+    </net>
+    <net code="70" name="Net-(J13-Pad2)">
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="71" name="Net-(J13-Pad1)">
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="72" name="Net-(J14-Pad5)">
+      <node ref="R11" pin="1"/>
+      <node ref="J14" pin="5"/>
+    </net>
+    <net code="73" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="75" name="Net-(D1-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J13" pin="5"/>
+    </net>
+    <net code="76" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="78" name="Net-(J13-Pad4)">
+      <node ref="J13" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+  </nets>
+</export>
