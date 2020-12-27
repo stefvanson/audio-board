@@ -122,14 +122,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F5D1ECA
-P 8650 2300
+P 8650 2050
 AR Path="/5F2A0E47/5F5D1ECA" Ref="#PWR?"  Part="1" 
 AR Path="/5F5D1ECA" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 8650 2050 50  0001 C CNN
-F 1 "GND" H 8655 2127 50  0000 C CNN
-F 2 "" H 8650 2300 50  0001 C CNN
-F 3 "" H 8650 2300 50  0001 C CNN
-	1    8650 2300
+F 0 "#PWR014" H 8650 1800 50  0001 C CNN
+F 1 "GND" H 8655 1877 50  0000 C CNN
+F 2 "" H 8650 2050 50  0001 C CNN
+F 3 "" H 8650 2050 50  0001 C CNN
+	1    8650 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -139,14 +139,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F5D1ED4
-P 8650 3550
+P 8650 3300
 AR Path="/5F2A0E47/5F5D1ED4" Ref="#PWR?"  Part="1" 
 AR Path="/5F5D1ED4" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 8650 3300 50  0001 C CNN
-F 1 "GND" H 8655 3377 50  0000 C CNN
-F 2 "" H 8650 3550 50  0001 C CNN
-F 3 "" H 8650 3550 50  0001 C CNN
-	1    8650 3550
+F 0 "#PWR016" H 8650 3050 50  0001 C CNN
+F 1 "GND" H 8655 3127 50  0000 C CNN
+F 2 "" H 8650 3300 50  0001 C CNN
+F 3 "" H 8650 3300 50  0001 C CNN
+	1    8650 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -485,8 +485,8 @@ F 3 "" H 8250 1950 50  0001 C CNN
 	1    8250 1950
 	1    0    0    -1  
 $EndComp
-Text Notes 5750 1200 0    50   ~ 0
-To do:\n- On Teensy: cut line between VIN and VUSB on the back!
+Text Notes 8050 1350 0    50   ~ 0
+This dual jump allows selecting between V_USB and DC_IN after cutting the\nconnection between VIN and VUSB on the back of the Teensy
 Wire Wire Line
 	8250 1950 8050 1950
 Wire Wire Line
@@ -550,8 +550,8 @@ $Comp
 L Device:Jumper_NC_Dual JP1
 U 1 1 5FEA0033
 P 9300 1750
-F 0 "JP1" V 9254 1852 50  0000 L CNN
-F 1 "Jumper_NC_Dual" V 9345 1852 50  0000 L CNN
+F 0 "JP1" H 9200 2000 50  0000 L CNN
+F 1 "Teensy supply select" H 9000 1900 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9300 1750 50  0001 C CNN
 F 3 "~" H 9300 1750 50  0001 C CNN
 	1    9300 1750

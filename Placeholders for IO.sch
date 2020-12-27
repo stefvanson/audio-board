@@ -27,24 +27,6 @@ F 3 "~" H 3100 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JLCPBC_Basic:1uF50V C3
-U 1 1 5F606984
-P 2200 1350
-F 0 "C3" V 2404 1478 50  0000 L CNN
-F 1 "1uF50V" V 2495 1478 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 2550 1400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 2550 1300 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 2550 1200 50  0001 L CNN "Description"
-F 5 "1.35" H 2550 1100 50  0001 L CNN "Height"
-F 6 "N/A" H 2550 1000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 2550 900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 2550 800 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 2550 700 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 2200 1350 50  0001 C CNN "JLCPCB Part Number"
-	1    2200 1350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR024
 U 1 1 5F607931
 P 2900 1450
@@ -58,12 +40,12 @@ $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 5F60813C
-P 2200 1850
-F 0 "#PWR018" H 2200 1600 50  0001 C CNN
-F 1 "GND" H 2205 1677 50  0000 C CNN
-F 2 "" H 2200 1850 50  0001 C CNN
-F 3 "" H 2200 1850 50  0001 C CNN
-	1    2200 1850
+P 2200 1650
+F 0 "#PWR018" H 2200 1400 50  0001 C CNN
+F 1 "GND" H 2205 1477 50  0000 C CNN
+F 2 "" H 2200 1650 50  0001 C CNN
+F 3 "" H 2200 1650 50  0001 C CNN
+	1    2200 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -77,8 +59,6 @@ F 3 "" H 2900 1250 50  0001 C CNN
 	1    2900 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 1350 1900 1350
 $Comp
 L JLCPBC_Basic:470 R1
 U 1 1 5F608EC4
@@ -91,9 +71,6 @@ F 4 "C17710" H 2500 1350 50  0001 C CNN "JLCPCB Part Number"
 	1    2500 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 1350 2350 1350
-Connection ~ 2200 1350
 Wire Wire Line
 	2650 1350 2900 1350
 $Comp
@@ -110,24 +87,6 @@ F 3 "~" H 3100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JLCPBC_Basic:1uF50V C4
-U 1 1 5F60F181
-P 2200 2600
-F 0 "C4" V 2404 2728 50  0000 L CNN
-F 1 "1uF50V" V 2495 2728 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 2550 2650 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 2550 2550 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 2550 2450 50  0001 L CNN "Description"
-F 5 "1.35" H 2550 2350 50  0001 L CNN "Height"
-F 6 "N/A" H 2550 2250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 2550 2150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 2550 2050 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 2550 1950 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 2200 2600 50  0001 C CNN "JLCPCB Part Number"
-	1    2200 2600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5F60F187
 P 2900 2700
@@ -141,12 +100,12 @@ $EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 5F60F18D
-P 2200 3100
-F 0 "#PWR019" H 2200 2850 50  0001 C CNN
-F 1 "GND" H 2205 2927 50  0000 C CNN
-F 2 "" H 2200 3100 50  0001 C CNN
-F 3 "" H 2200 3100 50  0001 C CNN
-	1    2200 3100
+P 2200 2900
+F 0 "#PWR019" H 2200 2650 50  0001 C CNN
+F 1 "GND" H 2205 2727 50  0000 C CNN
+F 2 "" H 2200 2900 50  0001 C CNN
+F 3 "" H 2200 2900 50  0001 C CNN
+	1    2200 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -160,8 +119,6 @@ F 3 "" H 2900 2500 50  0001 C CNN
 	1    2900 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 2600 1900 2600
 $Comp
 L JLCPBC_Basic:470 R2
 U 1 1 5F60F19C
@@ -174,9 +131,6 @@ F 4 "C17710" H 2500 2600 50  0001 C CNN "JLCPCB Part Number"
 	1    2500 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 2600 2350 2600
-Connection ~ 2200 2600
 Wire Wire Line
 	2650 2600 2900 2600
 $Comp
@@ -193,24 +147,6 @@ F 3 "~" H 5200 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JLCPBC_Basic:1uF50V C5
-U 1 1 5F6113C2
-P 4300 1350
-F 0 "C5" V 4504 1478 50  0000 L CNN
-F 1 "1uF50V" V 4595 1478 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 4650 1400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 4650 1300 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 4650 1200 50  0001 L CNN "Description"
-F 5 "1.35" H 4650 1100 50  0001 L CNN "Height"
-F 6 "N/A" H 4650 1000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 4650 900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 4650 800 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 4650 700 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 4300 1350 50  0001 C CNN "JLCPCB Part Number"
-	1    4300 1350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR030
 U 1 1 5F6113C8
 P 5000 1450
@@ -224,12 +160,12 @@ $EndComp
 $Comp
 L power:GND #PWR027
 U 1 1 5F6113CE
-P 4300 1850
-F 0 "#PWR027" H 4300 1600 50  0001 C CNN
-F 1 "GND" H 4305 1677 50  0000 C CNN
-F 2 "" H 4300 1850 50  0001 C CNN
-F 3 "" H 4300 1850 50  0001 C CNN
-	1    4300 1850
+P 4300 1650
+F 0 "#PWR027" H 4300 1400 50  0001 C CNN
+F 1 "GND" H 4305 1477 50  0000 C CNN
+F 2 "" H 4300 1650 50  0001 C CNN
+F 3 "" H 4300 1650 50  0001 C CNN
+	1    4300 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -243,8 +179,6 @@ F 3 "" H 5000 1250 50  0001 C CNN
 	1    5000 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 1350 4000 1350
 $Comp
 L JLCPBC_Basic:470 R3
 U 1 1 5F6113DD
@@ -257,9 +191,6 @@ F 4 "C17710" H 4600 1350 50  0001 C CNN "JLCPCB Part Number"
 	1    4600 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 1350 4450 1350
-Connection ~ 4300 1350
 Wire Wire Line
 	4750 1350 5000 1350
 $Comp
@@ -276,24 +207,6 @@ F 3 "~" H 5200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JLCPBC_Basic:1uF50V C6
-U 1 1 5F613222
-P 4300 2600
-F 0 "C6" V 4504 2728 50  0000 L CNN
-F 1 "1uF50V" V 4595 2728 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 4650 2650 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 4650 2550 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 4650 2450 50  0001 L CNN "Description"
-F 5 "1.35" H 4650 2350 50  0001 L CNN "Height"
-F 6 "N/A" H 4650 2250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 4650 2150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 4650 2050 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 4650 1950 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 4300 2600 50  0001 C CNN "JLCPCB Part Number"
-	1    4300 2600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR032
 U 1 1 5F613228
 P 5000 2700
@@ -307,12 +220,12 @@ $EndComp
 $Comp
 L power:GND #PWR028
 U 1 1 5F61322E
-P 4300 3100
-F 0 "#PWR028" H 4300 2850 50  0001 C CNN
-F 1 "GND" H 4305 2927 50  0000 C CNN
-F 2 "" H 4300 3100 50  0001 C CNN
-F 3 "" H 4300 3100 50  0001 C CNN
-	1    4300 3100
+P 4300 2900
+F 0 "#PWR028" H 4300 2650 50  0001 C CNN
+F 1 "GND" H 4305 2727 50  0000 C CNN
+F 2 "" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -326,8 +239,6 @@ F 3 "" H 5000 2500 50  0001 C CNN
 	1    5000 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 2600 4000 2600
 $Comp
 L JLCPBC_Basic:470 R4
 U 1 1 5F61323D
@@ -340,9 +251,6 @@ F 4 "C17710" H 4600 2600 50  0001 C CNN "JLCPCB Part Number"
 	1    4600 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 2600 4450 2600
-Connection ~ 4300 2600
 Wire Wire Line
 	4750 2600 5000 2600
 $Comp
@@ -359,24 +267,6 @@ F 3 "~" H 7350 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JLCPBC_Basic:1uF50V C7
-U 1 1 5F6149D2
-P 6450 1350
-F 0 "C7" V 6654 1478 50  0000 L CNN
-F 1 "1uF50V" V 6745 1478 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 6800 1400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 6800 1300 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 6800 1200 50  0001 L CNN "Description"
-F 5 "1.35" H 6800 1100 50  0001 L CNN "Height"
-F 6 "N/A" H 6800 1000 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 6800 900 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 6800 800 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 6800 700 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 6450 1350 50  0001 C CNN "JLCPCB Part Number"
-	1    6450 1350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR036
 U 1 1 5F6149D8
 P 7150 1450
@@ -390,12 +280,12 @@ $EndComp
 $Comp
 L power:GND #PWR033
 U 1 1 5F6149DE
-P 6450 1850
-F 0 "#PWR033" H 6450 1600 50  0001 C CNN
-F 1 "GND" H 6455 1677 50  0000 C CNN
-F 2 "" H 6450 1850 50  0001 C CNN
-F 3 "" H 6450 1850 50  0001 C CNN
-	1    6450 1850
+P 6450 1650
+F 0 "#PWR033" H 6450 1400 50  0001 C CNN
+F 1 "GND" H 6455 1477 50  0000 C CNN
+F 2 "" H 6450 1650 50  0001 C CNN
+F 3 "" H 6450 1650 50  0001 C CNN
+	1    6450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -409,8 +299,6 @@ F 3 "" H 7150 1250 50  0001 C CNN
 	1    7150 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 1350 6150 1350
 $Comp
 L JLCPBC_Basic:470 R5
 U 1 1 5F6149ED
@@ -423,9 +311,6 @@ F 4 "C17710" H 6750 1350 50  0001 C CNN "JLCPCB Part Number"
 	1    6750 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 1350 6600 1350
-Connection ~ 6450 1350
 Wire Wire Line
 	6900 1350 7150 1350
 $Comp
@@ -442,24 +327,6 @@ F 3 "~" H 7350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JLCPBC_Basic:1uF50V C8
-U 1 1 5F617693
-P 6450 2600
-F 0 "C8" V 6654 2728 50  0000 L CNN
-F 1 "1uF50V" V 6745 2728 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 6800 2650 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 6800 2550 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 6800 2450 50  0001 L CNN "Description"
-F 5 "1.35" H 6800 2350 50  0001 L CNN "Height"
-F 6 "N/A" H 6800 2250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 6800 2150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 6800 2050 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 6800 1950 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 6450 2600 50  0001 C CNN "JLCPCB Part Number"
-	1    6450 2600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR038
 U 1 1 5F617699
 P 7150 2700
@@ -473,12 +340,12 @@ $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 5F61769F
-P 6450 3100
-F 0 "#PWR034" H 6450 2850 50  0001 C CNN
-F 1 "GND" H 6455 2927 50  0000 C CNN
-F 2 "" H 6450 3100 50  0001 C CNN
-F 3 "" H 6450 3100 50  0001 C CNN
-	1    6450 3100
+P 6450 2900
+F 0 "#PWR034" H 6450 2650 50  0001 C CNN
+F 1 "GND" H 6455 2727 50  0000 C CNN
+F 2 "" H 6450 2900 50  0001 C CNN
+F 3 "" H 6450 2900 50  0001 C CNN
+	1    6450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -492,8 +359,6 @@ F 3 "" H 7150 2500 50  0001 C CNN
 	1    7150 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 2600 6150 2600
 $Comp
 L JLCPBC_Basic:470 R6
 U 1 1 5F6176AE
@@ -506,9 +371,6 @@ F 4 "C17710" H 6750 2600 50  0001 C CNN "JLCPCB Part Number"
 	1    6750 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6450 2600 6600 2600
-Connection ~ 6450 2600
 Wire Wire Line
 	6900 2600 7150 2600
 Text HLabel 1900 1350 0    50   Output ~ 0
@@ -569,4 +431,130 @@ F 3 "" H 2200 3800 50  0001 C CNN
 	1    2200 3800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4000 2600 4300 2600
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF17286
+P 4300 2600
+F 0 "C?" V 4404 2728 50  0000 L CNN
+F 1 "1uF25V" V 4495 2728 50  0000 L CNN
+F 2 "CAPC1005X60N" H 4450 2650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 4550 2550 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 4550 2450 50  0001 L CNN "Description"
+F 5 "0.6" H 4650 2350 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 4650 2250 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 4650 2150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 4300 2600 50  0001 C CNN "JLCPCB Part Number"
+	1    4300 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 4300 2600
+Wire Wire Line
+	4300 2600 4450 2600
+Wire Wire Line
+	1900 2600 2200 2600
+Wire Wire Line
+	1900 1350 2200 1350
+Wire Wire Line
+	4000 1350 4300 1350
+Wire Wire Line
+	6150 1350 6450 1350
+Wire Wire Line
+	6150 2600 6450 2600
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF19203
+P 2200 2600
+F 0 "C?" V 2304 2728 50  0000 L CNN
+F 1 "1uF25V" V 2395 2728 50  0000 L CNN
+F 2 "CAPC1005X60N" H 2350 2650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 2450 2550 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 2450 2450 50  0001 L CNN "Description"
+F 5 "0.6" H 2550 2350 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 2550 2250 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 2550 2150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 2200 2600 50  0001 C CNN "JLCPCB Part Number"
+	1    2200 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 2200 2600
+Wire Wire Line
+	2200 2600 2350 2600
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF19846
+P 6450 2600
+F 0 "C?" V 6554 2728 50  0000 L CNN
+F 1 "1uF25V" V 6645 2728 50  0000 L CNN
+F 2 "CAPC1005X60N" H 6600 2650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 6700 2550 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 6700 2450 50  0001 L CNN "Description"
+F 5 "0.6" H 6800 2350 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 6800 2250 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 6800 2150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 6450 2600 50  0001 C CNN "JLCPCB Part Number"
+	1    6450 2600
+	0    1    1    0   
+$EndComp
+Connection ~ 6450 2600
+Wire Wire Line
+	6450 2600 6600 2600
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF19FD9
+P 6450 1350
+F 0 "C?" V 6554 1478 50  0000 L CNN
+F 1 "1uF25V" V 6645 1478 50  0000 L CNN
+F 2 "CAPC1005X60N" H 6600 1400 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 6700 1300 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 6700 1200 50  0001 L CNN "Description"
+F 5 "0.6" H 6800 1100 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 6800 1000 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 6800 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 6450 1350 50  0001 C CNN "JLCPCB Part Number"
+	1    6450 1350
+	0    1    1    0   
+$EndComp
+Connection ~ 6450 1350
+Wire Wire Line
+	6450 1350 6600 1350
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF1A82E
+P 4300 1350
+F 0 "C?" V 4404 1478 50  0000 L CNN
+F 1 "1uF25V" V 4495 1478 50  0000 L CNN
+F 2 "CAPC1005X60N" H 4450 1400 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 4550 1300 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 4550 1200 50  0001 L CNN "Description"
+F 5 "0.6" H 4650 1100 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 4650 1000 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 4650 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 4300 1350 50  0001 C CNN "JLCPCB Part Number"
+	1    4300 1350
+	0    1    1    0   
+$EndComp
+Connection ~ 4300 1350
+Wire Wire Line
+	4300 1350 4450 1350
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF1ACCF
+P 2200 1350
+F 0 "C?" V 2304 1478 50  0000 L CNN
+F 1 "1uF25V" V 2395 1478 50  0000 L CNN
+F 2 "CAPC1005X60N" H 2350 1400 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 2450 1300 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 2450 1200 50  0001 L CNN "Description"
+F 5 "0.6" H 2550 1100 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 2550 1000 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 2550 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 2200 1350 50  0001 C CNN "JLCPCB Part Number"
+	1    2200 1350
+	0    1    1    0   
+$EndComp
+Connection ~ 2200 1350
+Wire Wire Line
+	2200 1350 2350 1350
 $EndSCHEMATC

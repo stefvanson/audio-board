@@ -46,88 +46,9 @@ F 3 "" H 1400 4850 50  0001 C CNN
 	1    1400 4850
 	0    1    1    0   
 $EndComp
-$Comp
-L JLCPBC_Basic:10uF25V C9
-U 1 1 5F2AB0C2
-P 1400 4550
-F 0 "C9" V 1559 4678 50  0000 L CNN
-F 1 "10uF25V" V 1650 4678 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X145N" H 1750 4600 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 1750 4500 50  0001 L CNN
-F 4 "Samsung" H 1750 4400 50  0001 L CNN "Description"
-F 5 "1.45" H 1750 4300 50  0001 L CNN "Height"
-F 6 "N/A" H 1750 4200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 1750 4100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 1750 4000 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 1750 3900 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" V 1741 4678 50  0001 L CNN "JLCPCB Part Number"
-	1    1400 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L JLCPBC_Basic:100nF50V C13
-U 1 1 5F2ADD55
-P 1900 4550
-F 0 "C13" V 2059 4678 50  0000 L CNN
-F 1 "100nF50V" V 2150 4678 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC3216X100N" H 2250 4600 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp" H 2250 4500 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 2250 4400 50  0001 L CNN "Description"
-F 5 "1" H 2250 4300 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 2250 4200 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL31B104KBCNNNC" H 2250 4100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "CL31B104KBCNNNC" H 2250 4000 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" H 2250 3900 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 2250 3800 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" H 2250 3700 50  0001 L CNN "Mouser Price/Stock"
-F 12 "" V 2241 4678 50  0001 L CNN "JLPCB Part Number"
-F 13 "C24497" H 1900 4550 50  0001 C CNN "JLCPCB Part Number"
-	1    1900 4550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1400 4550 1400 4500
 Connection ~ 1400 4550
-$Comp
-L JLCPBC_Basic:10uF25V C10
-U 1 1 5F2B4AF1
-P 1400 4850
-F 0 "C10" V 1559 4978 50  0000 L CNN
-F 1 "10uF25V" V 1650 4978 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X145N" H 1750 4900 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 1750 4800 50  0001 L CNN
-F 4 "Samsung" H 1750 4700 50  0001 L CNN "Description"
-F 5 "1.45" H 1750 4600 50  0001 L CNN "Height"
-F 6 "N/A" H 1750 4500 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 1750 4400 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 1750 4300 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 1750 4200 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" V 1741 4978 50  0001 L CNN "JLCPCB Part Number"
-	1    1400 4850
-	0    1    1    0   
-$EndComp
-Connection ~ 1400 4850
-$Comp
-L JLCPBC_Basic:100nF50V C14
-U 1 1 5F2B4E0C
-P 1900 4850
-F 0 "C14" V 2059 4978 50  0000 L CNN
-F 1 "100nF50V" V 2150 4978 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC3216X100N" H 2250 4900 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp" H 2250 4800 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 2250 4700 50  0001 L CNN "Description"
-F 5 "1" H 2250 4600 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 2250 4500 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL31B104KBCNNNC" H 2250 4400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "CL31B104KBCNNNC" H 2250 4300 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" H 2250 4200 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 2250 4100 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" H 2250 4000 50  0001 L CNN "Mouser Price/Stock"
-F 12 "" V 2241 4978 50  0001 L CNN "JLPCB Part Number"
-F 13 "C24497" H 1900 4850 50  0001 C CNN "JLCPCB Part Number"
-	1    1900 4850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2200 5150 2200 5300
 Wire Wire Line
@@ -139,11 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 5200 2700 5200
 Wire Wire Line
-	1400 5150 1900 5150
-Wire Wire Line
 	1400 4850 1900 4850
-Wire Wire Line
-	1400 4550 1900 4550
 Wire Wire Line
 	2700 5600 1750 5600
 Wire Wire Line
@@ -169,45 +86,6 @@ F 2 "" H 4850 5800 50  0001 C CNN
 F 3 "" H 4850 5800 50  0001 C CNN
 	1    4850 5800
 	1    0    0    -1  
-$EndComp
-$Comp
-L JLCPBC_Basic:100nF50V C24
-U 1 1 5F2C880E
-P 4850 5800
-F 0 "C24" V 4914 5928 50  0000 L CNN
-F 1 "100nF50V" V 5005 5928 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC3216X100N" H 5105 5850 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp" H 5105 5750 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 5105 5650 50  0001 L CNN "Description"
-F 5 "1" H 5105 5550 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 5105 5450 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL31B104KBCNNNC" H 5105 5350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "CL31B104KBCNNNC" H 5105 5250 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" H 5105 5150 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 5105 5050 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" H 5105 4950 50  0001 L CNN "Mouser Price/Stock"
-F 12 "" V 5096 5928 50  0001 L CNN "JLPCB Part Number"
-F 13 "C24497" H 4850 5800 50  0001 C CNN "JLCPCB Part Number"
-	1    4850 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L JLCPBC_Basic:10uF25V C20
-U 1 1 5F2C984F
-P 4250 5800
-F 0 "C20" V 4309 5928 50  0000 L CNN
-F 1 "10uF25V" V 4400 5928 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X145N" H 4500 5850 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 4500 5750 50  0001 L CNN
-F 4 "Samsung" H 4500 5650 50  0001 L CNN "Description"
-F 5 "1.45" H 4500 5550 50  0001 L CNN "Height"
-F 6 "N/A" H 4500 5450 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 4500 5350 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 4500 5250 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 4500 5150 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" V 4491 5928 50  0001 L CNN "JLCPCB Part Number"
-	1    4250 5800
-	0    1    1    0   
 $EndComp
 $Comp
 L JLCPBC_Basic:470 R14
@@ -326,51 +204,7 @@ Wire Wire Line
 	3900 5100 3900 4550
 Wire Wire Line
 	3900 4550 3950 4550
-$Comp
-L JLCPBC_Basic:100nF50V C17
-U 1 1 5F2DF691
-P 4050 4550
-F 0 "C17" V 4109 4678 50  0000 L CNN
-F 1 "100nF50V" V 4200 4678 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC3216X100N" H 4300 4600 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp" H 4300 4500 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 4300 4400 50  0001 L CNN "Description"
-F 5 "1" H 4300 4300 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 4300 4200 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL31B104KBCNNNC" H 4305 4100 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "CL31B104KBCNNNC" H 4305 4000 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" H 4305 3900 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 4305 3800 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" H 4305 3700 50  0001 L CNN "Mouser Price/Stock"
-F 12 "" V 4291 4678 50  0001 L CNN "JLPCB Part Number"
-F 13 "C24497" H 4050 4550 50  0001 C CNN "JLCPCB Part Number"
-	1    4050 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L JLCPBC_Basic:10uF25V C22
-U 1 1 5F2E04DE
-P 4700 4550
-F 0 "C22" V 4759 4678 50  0000 L CNN
-F 1 "10uF25V" V 4850 4678 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X145N" H 4950 4600 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 4950 4500 50  0001 L CNN
-F 4 "Samsung" H 4950 4400 50  0001 L CNN "Description"
-F 5 "1.45" H 4950 4300 50  0001 L CNN "Height"
-F 6 "N/A" H 4950 4200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 4950 4100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 4950 4000 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 4950 3900 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" V 4941 4678 50  0001 L CNN "JLCPCB Part Number"
-	1    4700 4550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4700 4550 4050 4550
 Connection ~ 3950 4550
-Connection ~ 4050 4550
-Wire Wire Line
-	4050 4550 3950 4550
 Wire Wire Line
 	4700 4850 4300 4850
 Connection ~ 4300 4850
@@ -380,7 +214,6 @@ Wire Wire Line
 	3900 5300 4050 5300
 Wire Wire Line
 	4050 5300 4050 4850
-Connection ~ 4050 4850
 Wire Wire Line
 	3900 5400 4200 5400
 Wire Wire Line
@@ -389,7 +222,6 @@ Wire Wire Line
 	4000 5200 4000 5100
 Wire Wire Line
 	4000 5100 4200 5100
-Connection ~ 4700 4850
 $Comp
 L JLCPBC_Basic:2.2uF50V C23
 U 1 1 5F2D8928
@@ -414,15 +246,9 @@ Wire Wire Line
 	4700 5500 4700 5150
 Wire Wire Line
 	3900 5500 4700 5500
-Connection ~ 1900 4550
-Wire Wire Line
-	1900 4550 2700 4550
 Connection ~ 1900 4850
 Wire Wire Line
 	1900 4850 2400 4850
-Connection ~ 1900 5150
-Wire Wire Line
-	1900 5150 2200 5150
 $Comp
 L JLCPCB_Extended:PCM5102APWR IC?
 U 1 1 5F3037FD
@@ -569,45 +395,6 @@ $EndComp
 Wire Wire Line
 	5650 2250 6000 2250
 $Comp
-L JLCPBC_Basic:100nF50V C30
-U 1 1 5F324AE0
-P 8000 2150
-F 0 "C30" V 8159 2278 50  0000 L CNN
-F 1 "100nF50V" V 8250 2278 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC3216X100N" H 8350 2200 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp" H 8350 2100 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 8350 2000 50  0001 L CNN "Description"
-F 5 "1" H 8350 1900 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 8350 1800 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL31B104KBCNNNC" H 8350 1700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "CL31B104KBCNNNC" H 8350 1600 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" H 8350 1500 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 8350 1400 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" H 8350 1300 50  0001 L CNN "Mouser Price/Stock"
-F 12 "C24497" H 8000 2150 50  0001 C CNN "JLCPCB Part Number"
-	1    8000 2150
-	0    1    1    0   
-$EndComp
-Connection ~ 8000 2450
-$Comp
-L JLCPBC_Basic:10uF25V C26
-U 1 1 5F32ACCB
-P 4950 2250
-F 0 "C26" V 5109 2378 50  0000 L CNN
-F 1 "10uF25V" V 5200 2300 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X145N" H 5300 2300 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 5300 2200 50  0001 L CNN
-F 4 "Samsung" H 5300 2100 50  0001 L CNN "Description"
-F 5 "1.45" H 5300 2000 50  0001 L CNN "Height"
-F 6 "N/A" H 5300 1900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 5300 1800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 5300 1700 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 5300 1600 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" V 5291 2378 50  0001 L CNN "JLCPCB Part Number"
-	1    4950 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR060
 U 1 1 5F33009A
 P 6000 2050
@@ -631,43 +418,6 @@ F 3 "" H 4950 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 1950 4950 1900
-Connection ~ 4950 1950
-$Comp
-L JLCPBC_Basic:1uF50V C11
-U 1 1 5F34F6FD
-P 1600 1300
-F 0 "C11" H 1850 1565 50  0000 C CNN
-F 1 "1uF50V" H 1850 1474 50  0000 C CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 1950 1350 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 1950 1250 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 1950 1150 50  0001 L CNN "Description"
-F 5 "1.35" H 1950 1050 50  0001 L CNN "Height"
-F 6 "N/A" H 1950 950 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 1950 850 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 1950 750 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 1950 650 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 1600 1300 50  0001 C CNN "JLCPCB Part Number"
-	1    1600 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L JLCPBC_Basic:1uF50V C12
-U 1 1 5F35084A
-P 1600 2250
-F 0 "C12" H 1850 2515 50  0000 C CNN
-F 1 "1uF50V" H 1850 2424 50  0000 C CNN
-F 2 "SamacSys_Parts:CAPC2012X135N" H 1950 2300 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf" H 1950 2200 50  0001 L CNN
-F 4 "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD" H 1950 2100 50  0001 L CNN "Description"
-F 5 "1.35" H 1950 2000 50  0001 L CNN "Height"
-F 6 "N/A" H 1950 1900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNE?qs=yOVawPpwOwmddQEBPU6Y9A%3D%3D" H 1950 1800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 1950 1700 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B105KBFNNNE" H 1950 1600 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C28323" H 1600 2250 50  0001 C CNN "JLCPCB Part Number"
-	1    1600 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L JLCPBC_Basic:100 R12
 U 1 1 5F3590B8
@@ -695,27 +445,27 @@ $EndComp
 $Comp
 L JLCPBC_Basic:10nF50V C16
 U 1 1 5F36FDA4
-P 2450 2750
-F 0 "C16" V 2609 2878 50  0000 L CNN
-F 1 "10nF50V" V 2700 2878 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X65N" H 2800 2800 50  0001 L CNN
-F 3 "" H 2800 2700 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 2800 2600 50  0001 L CNN "Description"
-F 5 "0.65" H 2800 2500 50  0001 L CNN "Height"
-F 6 "N/A" H 2800 2400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D" H 2800 2300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 2800 2200 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B103KBANNNC" H 2800 2100 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C1710" V 2791 2878 50  0001 L CNN "JLCPCB Part Number"
-	1    2450 2750
+P 2450 2550
+F 0 "C16" V 2609 2678 50  0000 L CNN
+F 1 "10nF50V" V 2500 2650 50  0000 L CNN
+F 2 "SamacSys_Parts:CAPC2012X65N" H 2800 2600 50  0001 L CNN
+F 3 "" H 2800 2500 50  0001 L CNN
+F 4 "Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 2800 2400 50  0001 L CNN "Description"
+F 5 "0.65" H 2800 2300 50  0001 L CNN "Height"
+F 6 "N/A" H 2800 2200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D" H 2800 2100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Samsung Electro-Mechanics" H 2800 2000 50  0001 L CNN "Manufacturer_Name"
+F 9 "CL21B103KBANNNC" H 2800 1900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C1710" V 2791 2678 50  0001 L CNN "JLCPCB Part Number"
+	1    2450 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L JLCPBC_Basic:10nF50V C15
 U 1 1 5F3707D8
 P 2450 1300
-F 0 "C15" V 2609 1428 50  0000 L CNN
-F 1 "10nF50V" V 2700 1428 50  0000 L CNN
+F 0 "C15" V 2600 1000 50  0000 L CNN
+F 1 "10nF50V" V 2700 900 50  0000 L CNN
 F 2 "SamacSys_Parts:CAPC2012X65N" H 2800 1350 50  0001 L CNN
 F 3 "" H 2800 1250 50  0001 L CNN
 F 4 "Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 2800 1150 50  0001 L CNN "Description"
@@ -733,23 +483,23 @@ Wire Wire Line
 $Comp
 L power:GND #PWR048
 U 1 1 5F3F463D
-P 2450 1800
-F 0 "#PWR048" H 2450 1550 50  0001 C CNN
-F 1 "GND" H 2455 1627 50  0000 C CNN
-F 2 "" H 2450 1800 50  0001 C CNN
-F 3 "" H 2450 1800 50  0001 C CNN
-	1    2450 1800
+P 2450 1600
+F 0 "#PWR048" H 2450 1350 50  0001 C CNN
+F 1 "GND" H 2455 1427 50  0000 C CNN
+F 2 "" H 2450 1600 50  0001 C CNN
+F 3 "" H 2450 1600 50  0001 C CNN
+	1    2450 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR049
 U 1 1 5F3F4F62
-P 2450 2750
-F 0 "#PWR049" H 2450 2500 50  0001 C CNN
-F 1 "GND" H 2455 2577 50  0000 C CNN
-F 2 "" H 2450 2750 50  0001 C CNN
-F 3 "" H 2450 2750 50  0001 C CNN
-	1    2450 2750
+P 2450 2550
+F 0 "#PWR049" H 2450 2300 50  0001 C CNN
+F 1 "GND" H 2455 2377 50  0000 C CNN
+F 2 "" H 2450 2550 50  0001 C CNN
+F 3 "" H 2450 2550 50  0001 C CNN
+	1    2450 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -857,7 +607,6 @@ Wire Wire Line
 	8000 1850 7200 1850
 Wire Wire Line
 	8000 2150 8000 1850
-Connection ~ 8000 2150
 Connection ~ 8000 1850
 Wire Wire Line
 	9100 3400 9650 3400
@@ -901,45 +650,6 @@ F 2 "" H 6000 2350 50  0001 C CNN
 F 3 "" H 6000 2350 50  0001 C CNN
 	1    6000 2350
 	0    1    1    0   
-$EndComp
-$Comp
-L JLCPBC_Basic:100nF50V C18
-U 1 1 5F309939
-P 4100 1600
-F 0 "C18" V 4259 1728 50  0000 L CNN
-F 1 "100nF50V" V 4350 1650 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC3216X100N" H 4450 1650 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp" H 4450 1550 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 4450 1450 50  0001 L CNN "Description"
-F 5 "1" H 4450 1350 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 4450 1250 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL31B104KBCNNNC" H 4450 1150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "CL31B104KBCNNNC" H 4450 1050 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" H 4450 950 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 4450 850 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" H 4450 750 50  0001 L CNN "Mouser Price/Stock"
-F 12 "" V 4441 1728 50  0001 L CNN "JLPCB Part Number"
-F 13 "C24497" H 4100 1600 50  0001 C CNN "JLCPCB Part Number"
-	1    4100 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JLCPBC_Basic:10uF25V C21
-U 1 1 5F30470E
-P 4500 1600
-F 0 "C21" V 4659 1728 50  0000 L CNN
-F 1 "10uF25V" V 4750 1650 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X145N" H 4850 1650 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 4850 1550 50  0001 L CNN
-F 4 "Samsung" H 4850 1450 50  0001 L CNN "Description"
-F 5 "1.45" H 4850 1350 50  0001 L CNN "Height"
-F 6 "N/A" H 4850 1250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 4850 1150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 4850 1050 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 4850 950 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" V 4841 1728 50  0001 L CNN "JLCPCB Part Number"
-	1    4500 1600
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR053
@@ -996,12 +706,6 @@ OUT_R
 Wire Wire Line
 	3900 5700 4150 5700
 Wire Wire Line
-	3900 5800 4250 5800
-Connection ~ 4250 5800
-Wire Wire Line
-	4250 5800 4850 5800
-Connection ~ 4850 5800
-Wire Wire Line
 	4250 6100 4850 6100
 Connection ~ 4250 6100
 Wire Wire Line
@@ -1011,63 +715,10 @@ Wire Wire Line
 Wire Wire Line
 	3900 5900 3900 6000
 Connection ~ 3900 6000
-$Comp
-L JLCPBC_Basic:100nF50V C25
-U 1 1 5F570268
-P 4950 1600
-F 0 "C25" V 5100 1700 50  0000 L CNN
-F 1 "100nF50V" V 5200 1650 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC3216X100N" H 5300 1650 50  0001 L CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B104KBCNNNC.jsp" H 5300 1550 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 1206 CL 100nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 5300 1450 50  0001 L CNN "Description"
-F 5 "1" H 5300 1350 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 5300 1250 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL31B104KBCNNNC" H 5300 1150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "CL31B104KBCNNNC" H 5300 1050 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/cl31b104kbcnnnc/samsung-electro-mechanics" H 5300 950 50  0001 L CNN "Arrow Price/Stock"
-F 10 "N/A" H 5300 850 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B104KBCNNNC?qs=349EhDEZ59oHABbyGq1iKA%3D%3D" H 5300 750 50  0001 L CNN "Mouser Price/Stock"
-F 12 "" V 5291 1728 50  0001 L CNN "JLPCB Part Number"
-F 13 "C24497" H 4950 1600 50  0001 C CNN "JLCPCB Part Number"
-	1    4950 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JLCPBC_Basic:10uF25V C27
-U 1 1 5F57098F
-P 5350 1600
-F 0 "C27" V 5500 1700 50  0000 L CNN
-F 1 "10uF25V" V 5600 1650 50  0000 L CNN
-F 2 "SamacSys_Parts:CAPC2012X145N" H 5700 1650 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 5700 1550 50  0001 L CNN
-F 4 "Samsung" H 5700 1450 50  0001 L CNN "Description"
-F 5 "1.45" H 5700 1350 50  0001 L CNN "Height"
-F 6 "N/A" H 5700 1250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 5700 1150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 5700 1050 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 5700 950 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" V 5691 1728 50  0001 L CNN "JLCPCB Part Number"
-	1    5350 1600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4100 1600 4500 1600
-Connection ~ 4100 1600
-Connection ~ 4500 1600
-Wire Wire Line
-	4500 1600 4950 1600
-Connection ~ 4950 1600
-Wire Wire Line
-	4950 1600 5350 1600
-Wire Wire Line
-	4950 1300 5350 1300
 Wire Wire Line
 	6000 1850 5500 1850
 Wire Wire Line
 	5500 1850 5500 1300
-Wire Wire Line
-	5500 1300 5350 1300
-Connection ~ 5350 1300
 Wire Wire Line
 	4100 1300 4100 1200
 Wire Wire Line
@@ -1088,14 +739,14 @@ F 3 "" H 4950 2250 50  0001 C CNN
 	1    4950 2250
 	1    0    0    -1  
 $EndComp
-Text Label 1250 1300 0    50   ~ 0
+Text Label 1450 1300 0    50   ~ 0
 RCA_IN_L
 Wire Wire Line
-	1250 1300 1600 1300
-Text Label 1250 2250 0    50   ~ 0
+	1450 1300 1800 1300
+Text Label 1450 2250 0    50   ~ 0
 RCA_IN_R
 Wire Wire Line
-	1250 2250 1600 2250
+	1450 2250 1800 2250
 Text Label 7200 5050 2    50   ~ 0
 RCA_OUT_L
 Text Label 7200 4400 2    50   ~ 0
@@ -1189,24 +840,6 @@ F 3 "" H 9200 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JLCPBC_Basic:10uF25V C?
-U 1 1 5FEAFA4D
-P 9200 1550
-F 0 "C?" V 9300 1300 50  0000 L CNN
-F 1 "10uF25V" V 9400 1100 50  0000 L CNN
-F 2 "CAPC2012X145N" H 9450 1600 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 9450 1500 50  0001 L CNN
-F 4 "Samsung" H 9450 1400 50  0001 L CNN "Description"
-F 5 "1.45" H 9450 1300 50  0001 L CNN "Height"
-F 6 "N/A" H 9450 1200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 9450 1100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 9450 1000 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21A106KAYNNNE" H 9450 900 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C15850" H 9200 1400 50  0001 C CNN "JLCPCB Part Number"
-	1    9200 1550
-	0    1    1    0   
-$EndComp
-$Comp
 L JLCPBC_Basic:10k R?
 U 1 1 5FEC6DE4
 P 9600 1550
@@ -1229,7 +862,6 @@ Wire Wire Line
 	9300 1550 9200 1550
 Wire Wire Line
 	9200 1550 9200 1300
-Connection ~ 9200 1550
 Connection ~ 9600 1850
 Wire Wire Line
 	9200 1850 9600 1850
@@ -1253,4 +885,318 @@ F 3 "~" H 7750 2050 50  0001 C CNN
 	1    7550 2050
 	1    0    0    -1  
 $EndComp
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF0013F
+P 9200 1550
+F 0 "C?" V 9300 1200 50  0000 L CNN
+F 1 "100nF16V" V 9400 1050 50  0000 L CNN
+F 2 "CAPC1005X55N" H 9450 1600 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 9450 1500 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 9450 1400 50  0001 L CNN "Description"
+F 5 "0.55" H 9450 1300 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 9550 1200 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 9550 1100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 9900 1250 50  0001 L CNN "JLCPCB Part Number"
+	1    9200 1550
+	0    1    1    0   
+$EndComp
+Connection ~ 9200 1550
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF04194
+P 8000 2150
+F 0 "C?" V 8100 2350 50  0000 L CNN
+F 1 "100nF16V" V 8200 2250 50  0000 L CNN
+F 2 "CAPC1005X55N" H 8250 2200 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 8250 2100 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 8250 2000 50  0001 L CNN "Description"
+F 5 "0.55" H 8250 1900 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 8350 1800 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 8350 1700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 8700 1850 50  0001 L CNN "JLCPCB Part Number"
+	1    8000 2150
+	0    1    1    0   
+$EndComp
+Connection ~ 8000 2150
+Connection ~ 8000 2450
+Connection ~ 4100 1600
+Wire Wire Line
+	4950 1600 5350 1600
+Connection ~ 4950 1600
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF04C6C
+P 4100 1300
+F 0 "C?" V 4200 1000 50  0000 L CNN
+F 1 "100nF16V" V 4300 800 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4350 1350 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 4350 1250 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 4350 1150 50  0001 L CNN "Description"
+F 5 "0.55" H 4350 1050 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 4450 950 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 4450 850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 4800 1000 50  0001 L CNN "JLCPCB Part Number"
+	1    4100 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF05C38
+P 4950 1300
+F 0 "C?" V 5050 1050 50  0000 L CNN
+F 1 "100nF16V" V 5150 950 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5200 1350 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 5200 1250 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 5200 1150 50  0001 L CNN "Description"
+F 5 "0.55" H 5200 1050 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 5300 950 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 5300 850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 5650 1000 50  0001 L CNN "JLCPCB Part Number"
+	1    4950 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF0BBF9
+P 4850 5800
+F 0 "C?" V 4950 5950 50  0000 L CNN
+F 1 "100nF16V" V 5050 5950 50  0000 L CNN
+F 2 "CAPC1005X55N" H 5100 5850 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 5100 5750 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 5100 5650 50  0001 L CNN "Description"
+F 5 "0.55" H 5100 5550 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 5200 5450 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 5200 5350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 5550 5500 50  0001 L CNN "JLCPCB Part Number"
+	1    4850 5800
+	0    1    1    0   
+$EndComp
+Connection ~ 4850 5800
+Wire Wire Line
+	3950 4550 4050 4550
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF0E8C6
+P 4050 4550
+F 0 "C?" V 4150 4700 50  0000 L CNN
+F 1 "100nF16V" V 4250 4700 50  0000 L CNN
+F 2 "CAPC1005X55N" H 4300 4600 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 4300 4500 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 4300 4400 50  0001 L CNN "Description"
+F 5 "0.55" H 4300 4300 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 4400 4200 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 4400 4100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 4750 4250 50  0001 L CNN "JLCPCB Part Number"
+	1    4050 4550
+	0    1    1    0   
+$EndComp
+Connection ~ 4050 4550
+Wire Wire Line
+	4050 4550 4700 4550
+Connection ~ 4050 4850
+Wire Wire Line
+	1400 4550 1900 4550
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF0EC8F
+P 1900 4550
+F 0 "C?" V 2000 4700 50  0000 L CNN
+F 1 "100nF16V" V 2100 4700 50  0000 L CNN
+F 2 "CAPC1005X55N" H 2150 4600 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 2150 4500 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 2150 4400 50  0001 L CNN "Description"
+F 5 "0.55" H 2150 4300 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 2250 4200 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 2250 4100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 2600 4250 50  0001 L CNN "JLCPCB Part Number"
+	1    1900 4550
+	0    1    1    0   
+$EndComp
+Connection ~ 1900 4550
+Wire Wire Line
+	1900 4550 2700 4550
+Wire Wire Line
+	1400 5150 1900 5150
+$Comp
+L JLCPBC_Basic:100nF16V C?
+U 1 1 5FF0F2BE
+P 1900 4850
+F 0 "C?" V 2000 5000 50  0000 L CNN
+F 1 "100nF16V" V 2100 5000 50  0000 L CNN
+F 2 "CAPC1005X55N" H 2150 4900 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 2150 4800 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF 16V 0402 RoHS" H 2150 4700 50  0001 L CNN "Description"
+F 5 "0.55" H 2150 4600 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 2250 4500 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05B104KO5NNNC" H 2250 4400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C1525" V 2600 4550 50  0001 L CNN "JLCPCB Part Number"
+	1    1900 4850
+	0    1    1    0   
+$EndComp
+Connection ~ 1900 5150
+Wire Wire Line
+	1900 5150 2200 5150
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF20435
+P 1800 1300
+F 0 "C?" H 1950 1565 50  0000 C CNN
+F 1 "1uF25V" H 1950 1474 50  0000 C CNN
+F 2 "CAPC1005X60N" H 1950 1350 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 2050 1250 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 2050 1150 50  0001 L CNN "Description"
+F 5 "0.6" H 2150 1050 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 2150 950 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 2150 850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 1800 1300 50  0001 C CNN "JLCPCB Part Number"
+	1    1800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L JLCPBC_Basic:1uF25V C?
+U 1 1 5FF21307
+P 1800 2250
+F 0 "C?" H 1950 2515 50  0000 C CNN
+F 1 "1uF25V" H 1950 2424 50  0000 C CNN
+F 2 "CAPC1005X60N" H 1950 2300 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 2050 2200 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 2050 2100 50  0001 L CNN "Description"
+F 5 "0.6" H 2150 2000 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 2150 1900 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A105KA5NQNC" H 2150 1800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C52923" H 1800 2250 50  0001 C CNN "JLCPCB Part Number"
+	1    1800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JLCPBC_Basic:10uF6.3V C?
+U 1 1 5FF25A1C
+P 4500 1600
+F 0 "C?" V 4650 1850 50  0000 R CNN
+F 1 "10uF6.3V" V 4750 1950 50  0000 R CNN
+F 2 "CAPC1005X70N" H 4750 1650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 4750 1550 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 6.3V 0402 RoHS" H 4750 1450 50  0001 L CNN "Description"
+F 5 "0.7" H 4750 1350 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 4850 1250 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A106MQ5NUNC" H 4850 1150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C15525" H 4500 1600 50  0001 C CNN "JLCPCB Part Number"
+	1    4500 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 1600 4500 1600
+Connection ~ 4500 1600
+Wire Wire Line
+	4500 1600 4950 1600
+Wire Wire Line
+	4950 1300 5350 1300
+$Comp
+L JLCPBC_Basic:10uF6.3V C?
+U 1 1 5FF2AFB5
+P 5350 1600
+F 0 "C?" V 5500 1850 50  0000 R CNN
+F 1 "10uF6.3V" V 5600 1950 50  0000 R CNN
+F 2 "CAPC1005X70N" H 5600 1650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 5600 1550 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 6.3V 0402 RoHS" H 5600 1450 50  0001 L CNN "Description"
+F 5 "0.7" H 5600 1350 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 5700 1250 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A106MQ5NUNC" H 5700 1150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C15525" H 5350 1600 50  0001 C CNN "JLCPCB Part Number"
+	1    5350 1600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5350 1300
+Wire Wire Line
+	5350 1300 5500 1300
+$Comp
+L JLCPBC_Basic:10uF6.3V C?
+U 1 1 5FF2B3B6
+P 4950 2250
+F 0 "C?" V 5100 2500 50  0000 R CNN
+F 1 "10uF6.3V" V 5200 2600 50  0000 R CNN
+F 2 "CAPC1005X70N" H 5200 2300 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 5200 2200 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 6.3V 0402 RoHS" H 5200 2100 50  0001 L CNN "Description"
+F 5 "0.7" H 5200 2000 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 5300 1900 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A106MQ5NUNC" H 5300 1800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C15525" H 4950 2250 50  0001 C CNN "JLCPCB Part Number"
+	1    4950 2250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4950 1950
+$Comp
+L JLCPBC_Basic:10uF6.3V C?
+U 1 1 5FF2BC4A
+P 4250 6100
+F 0 "C?" V 4400 6350 50  0000 R CNN
+F 1 "10uF6.3V" V 4500 6450 50  0000 R CNN
+F 2 "CAPC1005X70N" H 4500 6150 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 4500 6050 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 6.3V 0402 RoHS" H 4500 5950 50  0001 L CNN "Description"
+F 5 "0.7" H 4500 5850 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 4600 5750 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A106MQ5NUNC" H 4600 5650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C15525" H 4250 6100 50  0001 C CNN "JLCPCB Part Number"
+	1    4250 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 5800 4250 5800
+Connection ~ 4250 5800
+Wire Wire Line
+	4250 5800 4850 5800
+$Comp
+L JLCPBC_Basic:10uF6.3V C?
+U 1 1 5FF2C8AA
+P 4700 4850
+F 0 "C?" V 4850 4700 50  0000 R CNN
+F 1 "10uF6.3V" V 4950 4750 50  0000 R CNN
+F 2 "CAPC1005X70N" H 4950 4900 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 4950 4800 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 6.3V 0402 RoHS" H 4950 4700 50  0001 L CNN "Description"
+F 5 "0.7" H 4950 4600 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 5050 4500 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A106MQ5NUNC" H 5050 4400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C15525" H 4700 4850 50  0001 C CNN "JLCPCB Part Number"
+	1    4700 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 4850
+$Comp
+L JLCPBC_Basic:10uF6.3V C?
+U 1 1 5FF2D0AF
+P 1400 5150
+F 0 "C?" V 1550 5050 50  0000 R CNN
+F 1 "10uF6.3V" V 1450 5050 50  0000 R CNN
+F 2 "CAPC1005X70N" H 1650 5200 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 1650 5100 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 6.3V 0402 RoHS" H 1650 5000 50  0001 L CNN "Description"
+F 5 "0.7" H 1650 4900 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 1750 4800 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A106MQ5NUNC" H 1750 4700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C15525" H 1400 5150 50  0001 C CNN "JLCPCB Part Number"
+	1    1400 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JLCPBC_Basic:10uF6.3V C?
+U 1 1 5FF2DC77
+P 1400 4850
+F 0 "C?" V 1550 4750 50  0000 R CNN
+F 1 "10uF6.3V" V 1450 4750 50  0000 R CNN
+F 2 "CAPC1005X70N" H 1650 4900 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 1650 4800 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 6.3V 0402 RoHS" H 1650 4700 50  0001 L CNN "Description"
+F 5 "0.7" H 1650 4600 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 1750 4500 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A106MQ5NUNC" H 1750 4400 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C15525" H 1400 4850 50  0001 C CNN "JLCPCB Part Number"
+	1    1400 4850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1400 4850
 $EndSCHEMATC
