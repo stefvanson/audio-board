@@ -13,14 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 3350 3200 0    50   ~ 0
-I2S_DOUT
+Wire Wire Line
+	3350 3100 3850 3100
 Wire Wire Line
 	3350 3200 3850 3200
-Text Label 3350 3300 0    50   ~ 0
-I2S_DIN
-Wire Wire Line
-	3350 3300 3850 3300
 Text Label 3550 4550 2    50   ~ 0
 I2S_DOUT
 Text Label 3550 4700 2    50   ~ 0
@@ -409,7 +405,7 @@ $EndComp
 Wire Wire Line
 	2350 3300 2900 3300
 NoConn ~ 3850 3000
-NoConn ~ 3850 3100
+NoConn ~ 3850 3300
 $Comp
 L power:GND #PWR09
 U 1 1 5F651C07
@@ -587,4 +583,8 @@ F 10 "C6187" H 9300 3100 50  0001 C CNN "JLCPCB Part Number"
 	1    9300 3100
 	1    0    0    1   
 $EndComp
+Text Label 3350 3100 0    50   ~ 0
+I2S_DOUT
+Text Label 3350 3200 0    50   ~ 0
+I2S_DIN
 $EndSCHEMATC

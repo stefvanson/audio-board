@@ -28,8 +28,9 @@ If you make changes to the schematics you have to:
 - [ ] Add holes for mounting the PCB in a housing.
 - [x] Test UART
 - [ ] Connect VDD of Crystal
-- [ ] Fix I2S_DIN and I2S_DOUT pins (they are connected to the wrong teensy pins).
+- [x] Fix I2S_DIN and I2S_DOUT pins (they are connected to the wrong teensy pins).
 - [ ] Use capacitors with lower voltage ratings
 - [ ] Align outputs
 - [ ] Add more MIDI outputs (mini-jack?)
 - [ ] Update PCB version number
+- [ ] Add holes/pin header for connecting to raspberry Pi
