@@ -25,7 +25,7 @@ If you make changes to the schematics you have to:
 - [ ] Make it more compact.
 - [x] Change the footprint of the power connector.
 - [x] Test UART
-- [ ] Connect VDD of Crystal
+- [x] Connect VDD of Crystal
 - [x] Fix I2S_DIN and I2S_DOUT pins (they are connected to the wrong teensy pins).
 - [ ] Use capacitors with lower voltage ratings
 - [ ] Add more MIDI outputs (mini-jack?)

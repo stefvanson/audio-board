@@ -731,59 +731,6 @@ $EndComp
 Wire Wire Line
 	6000 1650 5800 1650
 $Comp
-L JLCPCB_Extended:24.576MHz U3
-U 1 1 5F3971E3
-P 9800 1400
-F 0 "U3" H 9800 1675 50  0000 C CNN
-F 1 "24.576MHz" H 9800 1584 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 9800 1150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-O322524576MEEA4SC_C27869.pdf" H 9800 1400 50  0001 C CNN
-F 4 "C27869" H 9800 1050 50  0001 C CNN "JLCPCB Part Number"
-	1    9800 1400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 1450 10100 1350
-$Comp
-L JLCPBC_Basic:10nF50V C31
-U 1 1 5F3B2686
-P 9550 1850
-F 0 "C31" H 9800 2115 50  0000 C CNN
-F 1 "10nF50V" H 9800 2024 50  0000 C CNN
-F 2 "SamacSys_Parts:CAPC2012X65N" H 9900 1900 50  0001 L CNN
-F 3 "" H 9900 1800 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 0805 CL 10nF Ceramic Multilayer Capacitor, 50 V, +125C, X7R Dielectric, +/-10% SMD" H 9900 1700 50  0001 L CNN "Description"
-F 5 "0.65" H 9900 1600 50  0001 L CNN "Height"
-F 6 "N/A" H 9900 1500 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B103KBANNNC?qs=349EhDEZ59oTK9iJ%2FqCMuw%3D%3D" H 9900 1400 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Samsung Electro-Mechanics" H 9900 1300 50  0001 L CNN "Manufacturer_Name"
-F 9 "CL21B103KBANNNC" H 9900 1200 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C1710" H 9550 1850 50  0001 C CNN "JLCPCB Part Number"
-	1    9550 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 1850 10100 1850
-Wire Wire Line
-	10100 1850 10100 1450
-Connection ~ 10100 1450
-Wire Wire Line
-	9500 1450 9500 1850
-Wire Wire Line
-	9500 1850 9550 1850
-$Comp
-L power:GND #PWR069
-U 1 1 5F3C4DE7
-P 9500 1850
-F 0 "#PWR069" H 9500 1600 50  0001 C CNN
-F 1 "GND" H 9505 1677 50  0000 C CNN
-F 2 "" H 9500 1850 50  0001 C CNN
-F 3 "" H 9500 1850 50  0001 C CNN
-	1    9500 1850
-	1    0    0    -1  
-$EndComp
-Connection ~ 9500 1850
-$Comp
 L power:GND #PWR048
 U 1 1 5F3F463D
 P 2450 1800
@@ -868,14 +815,10 @@ Text Notes 1150 4000 0    50   ~ 0
 I2S DAC
 Text Notes 4200 950  0    50   ~ 0
 I2S ADC
-Text Label 9300 1350 0    50   ~ 0
+Text Label 7450 2050 2    50   ~ 0
 SCK
 Wire Wire Line
-	9300 1350 9500 1350
-Text Label 7650 2050 2    50   ~ 0
-SCK
-Wire Wire Line
-	7200 2050 7650 2050
+	7200 2050 7550 2050
 $Comp
 L power:+3.3V #PWR059
 U 1 1 5F2FF2E8
@@ -1196,4 +1139,118 @@ Wire Wire Line
 	8000 5050 8000 4500
 Wire Wire Line
 	8000 4500 9100 4500
+$Comp
+L JLCPCB_Extended:24.576MHz U?
+U 1 1 5FE94DFB
+P 9900 1500
+F 0 "U?" H 9900 1775 50  0000 C CNN
+F 1 "24.576MHz" H 9900 1684 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 9900 1250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-O322524576MEEA4SC_C27869.pdf" H 9900 1500 50  0001 C CNN
+F 4 "C27869" H 9900 1150 50  0001 C CNN "JLCPCB Part Number"
+	1    9900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5FE91BBF
+P 9400 1550
+F 0 "JP?" H 9400 1400 50  0000 C CNN
+F 1 "OSC_DIS" H 9400 1500 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9400 1550 50  0001 C CNN
+F 3 "~" H 9400 1550 50  0001 C CNN
+	1    9400 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR069
+U 1 1 5F3C4DE7
+P 9600 1850
+F 0 "#PWR069" H 9600 1600 50  0001 C CNN
+F 1 "GND" H 9605 1677 50  0000 C CNN
+F 2 "" H 9600 1850 50  0001 C CNN
+F 3 "" H 9600 1850 50  0001 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 1450 10400 1450
+Text Label 10400 1450 2    50   ~ 0
+SCK
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FEA6972
+P 9200 1300
+F 0 "#PWR?" H 9200 1150 50  0001 C CNN
+F 1 "+3.3V" H 9215 1473 50  0000 C CNN
+F 2 "" H 9200 1300 50  0001 C CNN
+F 3 "" H 9200 1300 50  0001 C CNN
+	1    9200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L JLCPBC_Basic:10uF25V C?
+U 1 1 5FEAFA4D
+P 9200 1550
+F 0 "C?" V 9300 1300 50  0000 L CNN
+F 1 "10uF25V" V 9400 1100 50  0000 L CNN
+F 2 "CAPC2012X145N" H 9450 1600 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2710652.pdf?_ga=2.232319711.1701824318.1596544434-371254432.1596544434" H 9450 1500 50  0001 L CNN
+F 4 "Samsung" H 9450 1400 50  0001 L CNN "Description"
+F 5 "1.45" H 9450 1300 50  0001 L CNN "Height"
+F 6 "N/A" H 9450 1200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KAYNNNE?qs=yOVawPpwOwmTXAd4dJtNjA%3D%3D" H 9450 1100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Samsung Electro-Mechanics" H 9450 1000 50  0001 L CNN "Manufacturer_Name"
+F 9 "CL21A106KAYNNNE" H 9450 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C15850" H 9200 1400 50  0001 C CNN "JLCPCB Part Number"
+	1    9200 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L JLCPBC_Basic:10k R?
+U 1 1 5FEC6DE4
+P 9600 1550
+F 0 "R?" V 9704 1620 50  0000 L CNN
+F 1 "10k" V 9795 1620 50  0000 L CNN
+F 2 "SamacSys_Parts:R_0402_JLCPCB" H 10150 1600 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 10150 1500 50  0001 L CNN
+F 4 "Chip Resistor - Surface Mount 10KOhms +/-1% 1/16W 0402 RoHS" H 10150 1400 50  0001 L CNN "Description"
+F 5 "0.4" H 10150 1300 50  0001 L CNN "Height"
+F 6 "UNI-ROYAL(Uniroyal Elec)" H 10150 1000 50  0001 L CNN "Manufacturer_Name"
+F 7 "0402WGF1002TCE" H 10150 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "C25744" H 9600 1550 50  0001 C CNN "JLCPCB Part Number"
+	1    9600 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 1550 9600 1550
+Connection ~ 9600 1550
+Wire Wire Line
+	9300 1550 9200 1550
+Wire Wire Line
+	9200 1550 9200 1300
+Connection ~ 9200 1550
+Connection ~ 9600 1850
+Wire Wire Line
+	9200 1850 9600 1850
+Wire Wire Line
+	10200 1550 10200 1850
+Wire Wire Line
+	9600 1850 10200 1850
+Wire Wire Line
+	9600 1450 9600 1300
+Wire Wire Line
+	9600 1300 9200 1300
+Connection ~ 9200 1300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FEF80D5
+P 7550 2050
+F 0 "TP?" H 7608 2168 50  0000 L CNN
+F 1 "TestPoint" H 7608 2077 50  0000 L CNN
+F 2 "" H 7750 2050 50  0001 C CNN
+F 3 "~" H 7750 2050 50  0001 C CNN
+	1    7550 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
