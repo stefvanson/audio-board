@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -313,66 +313,6 @@ F 4 "C17710" H 6750 1350 50  0001 C CNN "JLCPCB Part Number"
 $EndComp
 Wire Wire Line
 	6900 1350 7150 1350
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5F617686
-P 7350 2600
-AR Path="/5F617686" Ref="J?"  Part="1" 
-AR Path="/5F605664/5F617686" Ref="J12"  Part="1" 
-F 0 "J12" H 7430 2642 50  0000 L CNN
-F 1 "POT" H 7430 2551 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7350 2600 50  0001 C CNN
-F 3 "~" H 7350 2600 50  0001 C CNN
-	1    7350 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR038
-U 1 1 5F617699
-P 7150 2700
-F 0 "#PWR038" H 7150 2450 50  0001 C CNN
-F 1 "GND" H 7155 2527 50  0000 C CNN
-F 2 "" H 7150 2700 50  0001 C CNN
-F 3 "" H 7150 2700 50  0001 C CNN
-	1    7150 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 5F61769F
-P 6450 2900
-F 0 "#PWR034" H 6450 2650 50  0001 C CNN
-F 1 "GND" H 6455 2727 50  0000 C CNN
-F 2 "" H 6450 2900 50  0001 C CNN
-F 3 "" H 6450 2900 50  0001 C CNN
-	1    6450 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR037
-U 1 1 5F6176A5
-P 7150 2500
-F 0 "#PWR037" H 7150 2350 50  0001 C CNN
-F 1 "+3.3V" H 7165 2673 50  0000 C CNN
-F 2 "" H 7150 2500 50  0001 C CNN
-F 3 "" H 7150 2500 50  0001 C CNN
-	1    7150 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L JLCPBC_Basic:470 R6
-U 1 1 5F6176AE
-P 6750 2600
-F 0 "R6" H 6750 2825 50  0000 C CNN
-F 1 "470" H 6750 2734 50  0000 C CNN
-F 2 "SamacSys_Parts:R_0805_JLCPCB" H 6750 2500 50  0001 C CNN
-F 3 "" H 6750 2500 50  0001 C CNN
-F 4 "C17710" H 6750 2600 50  0001 C CNN "JLCPCB Part Number"
-	1    6750 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 2600 7150 2600
 Text HLabel 1900 1350 0    50   Output ~ 0
 POT1
 Text HLabel 1900 2600 0    50   Output ~ 0
@@ -381,8 +321,6 @@ Text HLabel 4000 1350 0    50   Output ~ 0
 POT2
 Text HLabel 4000 2600 0    50   Output ~ 0
 POT5
-Text HLabel 6150 2600 0    50   Output ~ 0
-POT6
 Text HLabel 6150 1350 0    50   Output ~ 0
 POT3
 $Comp
@@ -460,8 +398,6 @@ Wire Wire Line
 	4000 1350 4300 1350
 Wire Wire Line
 	6150 1350 6450 1350
-Wire Wire Line
-	6150 2600 6450 2600
 $Comp
 L JLCPBC_Basic:1uF25V C?
 U 1 1 5FF19203
@@ -481,25 +417,6 @@ $EndComp
 Connection ~ 2200 2600
 Wire Wire Line
 	2200 2600 2350 2600
-$Comp
-L JLCPBC_Basic:1uF25V C?
-U 1 1 5FF19846
-P 6450 2600
-F 0 "C?" V 6554 2728 50  0000 L CNN
-F 1 "1uF25V" V 6645 2728 50  0000 L CNN
-F 2 "CAPC1005X60N" H 6600 2650 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf" H 6700 2550 50  0001 L CNN
-F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 25V 0402 RoHS" H 6700 2450 50  0001 L CNN "Description"
-F 5 "0.6" H 6800 2350 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 6800 2250 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL05A105KA5NQNC" H 6800 2150 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "C52923" H 6450 2600 50  0001 C CNN "JLCPCB Part Number"
-	1    6450 2600
-	0    1    1    0   
-$EndComp
-Connection ~ 6450 2600
-Wire Wire Line
-	6450 2600 6600 2600
 $Comp
 L JLCPBC_Basic:1uF25V C?
 U 1 1 5FF19FD9

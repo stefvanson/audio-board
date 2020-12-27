@@ -253,20 +253,18 @@ Wire Wire Line
 Wire Wire Line
 	2350 3600 3850 3600
 NoConn ~ 6050 3600
-Text Label 6450 2600 2    50   ~ 0
-POT6
 Wire Wire Line
 	6450 2600 6050 2600
 Text Label 6450 2700 2    50   ~ 0
-POT5
+POT4
 Wire Wire Line
 	6450 2700 6050 2700
 Text Label 6450 3000 2    50   ~ 0
-POT4
-Text Label 6450 3100 2    50   ~ 0
 POT3
-Text Label 6450 3200 2    50   ~ 0
+Text Label 6450 3100 2    50   ~ 0
 POT2
+Text Label 6450 2600 2    50   ~ 0
+POT5
 Text Label 6450 3300 2    50   ~ 0
 POT1
 Wire Wire Line
@@ -312,18 +310,6 @@ F 3 "" H 2450 3000 50  0001 C CNN
 	1    2450 3000
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 9350 4300 1400 750 
-U 5F605664
-F0 "Sheet5F605663" 50
-F1 "Placeholders for IO.sch" 50
-F2 "POT1" O L 9350 4450 50 
-F3 "POT4" O L 9350 4750 50 
-F4 "POT2" O L 9350 4550 50 
-F5 "POT5" O L 9350 4850 50 
-F6 "POT6" O L 9350 4950 50 
-F7 "POT3" O L 9350 4650 50 
-$EndSheet
 Text Label 8850 4450 0    50   ~ 0
 POT1
 Text Label 8850 4750 0    50   ~ 0
@@ -334,8 +320,6 @@ Text Label 8850 4850 0    50   ~ 0
 POT5
 Text Label 8850 4650 0    50   ~ 0
 POT3
-Text Label 8850 4950 0    50   ~ 0
-POT6
 Wire Wire Line
 	8850 4450 9350 4450
 Wire Wire Line
@@ -346,8 +330,6 @@ Wire Wire Line
 	8850 4750 9350 4750
 Wire Wire Line
 	8850 4850 9350 4850
-Wire Wire Line
-	8850 4950 9350 4950
 $Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 5F6465AB
@@ -436,12 +418,12 @@ F 3 "" H 4550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1150 1000 900  500 
+S 1150 1000 900  600 
 U 5F699A2B
 F0 "MIDI" 50
 F1 "MIDI.sch" 50
 F2 "MIDI_IN" O R 2050 1150 50 
-F3 "MIDI_OUT" I R 2050 1350 50 
+F3 "MIDI_OUT" I R 2050 1300 50 
 $EndSheet
 Wire Wire Line
 	3850 2400 3250 2400
@@ -449,10 +431,6 @@ Wire Wire Line
 	3250 2400 3250 1150
 Wire Wire Line
 	2050 1150 3250 1150
-Wire Wire Line
-	3100 2500 3100 1350
-Wire Wire Line
-	2050 1350 3100 1350
 Wire Wire Line
 	3100 2500 3850 2500
 $Comp
@@ -588,4 +566,27 @@ Wire Wire Line
 	9300 1850 9300 2900
 Wire Wire Line
 	9550 1750 9650 1750
+Text HLabel 2050 1450 0    50   Output ~ 0
+MIDI_OUT2
+Wire Wire Line
+	2050 1300 3100 1300
+Wire Wire Line
+	3100 1300 3100 2500
+Text Label 2750 1450 2    50   ~ 0
+MIDI_OUT2
+Wire Wire Line
+	2750 1450 2050 1450
+Text Label 6450 3200 2    50   ~ 0
+MIDI_OUT2
+$Sheet
+S 9350 4300 1050 700 
+U 5F605664
+F0 "Sheet5F605663" 50
+F1 "Placeholders for IO.sch" 50
+F2 "POT1" O L 9350 4450 50 
+F3 "POT4" O L 9350 4750 50 
+F4 "POT2" O L 9350 4550 50 
+F5 "POT5" O L 9350 4850 50 
+F6 "POT3" O L 9350 4650 50 
+$EndSheet
 $EndSCHEMATC
