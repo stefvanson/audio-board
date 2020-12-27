@@ -207,7 +207,7 @@ NoConn ~ 2600 2500
 NoConn ~ 2600 2600
 NoConn ~ 1600 2600
 NoConn ~ 1600 2700
-Text HLabel 8950 2700 2    50   Input ~ 0
+Text HLabel 8950 3050 2    50   Input ~ 0
 MIDI_OUT
 $Comp
 L SamacSys_Parts:57PC5F J14
@@ -265,47 +265,6 @@ F 3 "" H 8100 2500 50  0001 C CNN
 	1    8100 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR044
-U 1 1 5F6AFFEE
-P 8950 3050
-F 0 "#PWR044" H 8950 2900 50  0001 C CNN
-F 1 "+5V" H 8965 3223 50  0000 C CNN
-F 2 "" H 8950 3050 50  0001 C CNN
-F 3 "" H 8950 3050 50  0001 C CNN
-	1    8950 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L JLCPBC_Basic:47 R10
-U 1 1 5F6B545F
-P 8350 2700
-F 0 "R10" H 8500 2800 50  0000 C CNN
-F 1 "47" H 8500 2600 50  0000 C CNN
-F 2 "SamacSys_Parts:R_0805_JLCPCB" H 8900 2750 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F470JT5E_C17714.pdf" H 8900 2650 50  0001 L CNN
-F 4 "Chip Resistor - Surface Mount 47Ohms ±1% 1/8W 0805 RoHS" H 8900 2550 50  0001 L CNN "Description"
-F 5 "UNI-ROYAL(Uniroyal Elec)" H 8900 2150 50  0001 L CNN "Manufacturer_Name"
-F 6 "0805W8F470JT5E" H 8900 2050 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "C17714" H 8350 2700 50  0001 C CNN "JLCPCB Part Number"
-	1    8350 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L JLCPBC_Basic:47 R11
-U 1 1 5F6B6CD0
-P 8350 3050
-F 0 "R11" H 8500 3150 50  0000 C CNN
-F 1 "47" H 8500 2950 50  0000 C CNN
-F 2 "SamacSys_Parts:R_0805_JLCPCB" H 8900 3100 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F470JT5E_C17714.pdf" H 8900 3000 50  0001 L CNN
-F 4 "Chip Resistor - Surface Mount 47Ohms ±1% 1/8W 0805 RoHS" H 8900 2900 50  0001 L CNN "Description"
-F 5 "UNI-ROYAL(Uniroyal Elec)" H 8900 2500 50  0001 L CNN "Manufacturer_Name"
-F 6 "0805W8F470JT5E" H 8900 2400 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "C17714" H 8350 3050 50  0001 C CNN "JLCPCB Part Number"
-	1    8350 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 2700 8350 2700
 Wire Wire Line
@@ -327,4 +286,47 @@ Wire Wire Line
 Wire Wire Line
 	4950 2150 4950 2100
 Connection ~ 4950 2150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FE8AA11
+P 8950 2700
+AR Path="/5FE8AA11" Ref="#PWR?"  Part="1" 
+AR Path="/5F699A2B/5FE8AA11" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 8950 2550 50  0001 C CNN
+F 1 "+3.3V" H 8965 2873 50  0000 C CNN
+F 2 "" H 8950 2700 50  0001 C CNN
+F 3 "" H 8950 2700 50  0001 C CNN
+	1    8950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L JLCPBC_Basic:33 R10
+U 1 1 5FE8D1EA
+P 8350 2700
+F 0 "R10" H 8500 2907 50  0000 C CNN
+F 1 "33" H 8500 2816 50  0000 C CNN
+F 2 "SamacSys_Parts:R_0805_JLCPCB" H 8900 2750 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F330JT5E_C17634.pdf" H 8900 2650 50  0001 L CNN
+F 4 "Chip Resistor - Surface Mount 33Ohms ±1% 1/8W 0805 RoHS" H 8900 2550 50  0001 L CNN "Description"
+F 5 "UNI-ROYAL(Uniroyal Elec)" H 8900 2150 50  0001 L CNN "Manufacturer_Name"
+F 6 "0805W8F330JT5E" H 8900 2050 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "C17634" H 8350 2700 50  0001 C CNN "JLCPCB Part Number"
+	1    8350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L JLCPBC_Basic:10 R11
+U 1 1 5FE8D9B0
+P 8350 3050
+F 0 "R11" H 8500 3257 50  0000 C CNN
+F 1 "10" H 8500 3166 50  0000 C CNN
+F 2 "SamacSys_Parts:R_1206_JLCPCB" H 8900 3100 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F100JT5E_C17903.pdf" H 8900 3000 50  0001 L CNN
+F 4 "Chip Resistor - Surface Mount 10Ohms ±1% 1/4W 1206 RoHS" H 8900 2900 50  0001 L CNN "Description"
+F 5 "UNI-ROYAL(Uniroyal Elec)" H 8900 2500 50  0001 L CNN "Manufacturer_Name"
+F 6 "1206W4F100JT5E" H 8900 2400 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "C17903" H 8350 3050 50  0001 C CNN "JLCPCB Part Number"
+	1    8350 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 10
+#
+DEF 10 R 0 30 N Y 1 F N
+F0 "R" 50 100 50 H V L CNN
+F1 "10" 50 -100 50 H V L CNN
+F2 "SamacSys_Parts:R_1206_JLCPCB" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "Chip Resistor - Surface Mount 10Ohms ±1% 1/4W 1206 RoHS" 550 -150 50 H I L CNN "Description"
+F5 "UNI-ROYAL(Uniroyal Elec)" 550 -550 50 H I L CNN "Manufacturer_Name"
+F6 "1206W4F100JT5E" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F7 "C17903" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+S 250 -40 50 40 1 1 10 N
+X ~ 1 0 0 50 R 50 50 1 1 P
+X ~ 2 300 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 100
 #
 DEF 100 R 0 40 N Y 1 F N
@@ -221,6 +239,24 @@ P 2 0 1 6 280 0 300 0 N
 P 2 0 1 6 280 100 280 -100 N
 X ~ 1 0 0 200 R 50 50 0 0 P
 X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 33
+#
+DEF 33 R 0 30 N Y 1 F N
+F0 "R" 50 100 50 H V L CNN
+F1 "33" 50 -100 50 H V L CNN
+F2 "SamacSys_Parts:R_0805_JLCPCB" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "Chip Resistor - Surface Mount 33Ohms ±1% 1/8W 0805 RoHS" 550 -150 50 H I L CNN "Description"
+F5 "UNI-ROYAL(Uniroyal Elec)" 550 -550 50 H I L CNN "Manufacturer_Name"
+F6 "0805W8F330JT5E" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F7 "C17634" 0 0 50 H I C CNN "JLCPCB Part Number"
+DRAW
+S 250 -40 50 40 1 1 10 N
+X ~ 1 0 0 50 R 50 50 1 1 P
+X ~ 2 300 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
