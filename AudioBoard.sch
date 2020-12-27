@@ -153,10 +153,6 @@ Wire Wire Line
 	8650 3550 8650 3500
 Wire Wire Line
 	9250 3100 9300 3100
-Wire Wire Line
-	9300 2900 9250 2900
-Wire Wire Line
-	9250 2900 9250 1750
 Text Label 6400 2300 2    50   ~ 0
 5V_EXT
 Text Label 8300 3000 0    50   ~ 0
@@ -459,28 +455,13 @@ Wire Wire Line
 	2050 1350 3100 1350
 Wire Wire Line
 	3100 2500 3850 2500
-Wire Wire Line
-	9150 1750 9250 1750
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 5F6C6AB9
-P 9050 1750
-F 0 "JP1" H 9050 1962 50  0000 C CNN
-F 1 "POWER_SWITCH" H 9050 1871 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9050 1750 50  0001 C CNN
-F 3 "~" H 9050 1750 50  0001 C CNN
-	1    9050 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 1750 8650 1750
 $Comp
 L SamacSys_Parts:163-179PH-EX J5
 U 1 1 5F6CA749
 P 7550 1850
 F 0 "J5" H 7600 2050 50  0000 C CNN
 F 1 "163-179PH-EX" H 7750 1650 50  0000 C CNN
-F 2 "SamacSys_Parts:163179PHEX" H 8200 1950 50  0001 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 8200 1950 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf" H 8200 1850 50  0001 L CNN
 F 4 "DC Power Connectors PCB 2.1MM" H 8200 1750 50  0001 L CNN "Description"
 F 5 "11" H 8200 1650 50  0001 L CNN "Height"
@@ -513,7 +494,6 @@ Wire Wire Line
 Connection ~ 8050 1950
 Wire Wire Line
 	8050 1750 8650 1750
-Connection ~ 8650 1750
 Wire Wire Line
 	4250 4250 4250 4750
 Wire Wire Line
@@ -562,7 +542,21 @@ F3 "I2S_DIN" I R 3000 4700 50
 F4 "I2S_DOUT" O R 3000 4550 50 
 F5 "I2S_BCK" O R 3000 5000 50 
 $EndSheet
-NoConn ~ 5050 2000
+Text Label 3350 3100 0    50   ~ 0
+I2S_DOUT
+Text Label 3350 3200 0    50   ~ 0
+I2S_DIN
+$Comp
+L Device:Jumper_NC_Dual JP1
+U 1 1 5FEA0033
+P 9300 1750
+F 0 "JP1" V 9254 1852 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 9345 1852 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9300 1750 50  0001 C CNN
+F 3 "~" H 9300 1750 50  0001 C CNN
+	1    9300 1750
+	1    0    0    -1  
+$EndComp
 $Comp
 L JLCPBC_Basic:AMS1117-5.0 IC?
 U 1 1 5F5D1EA0
@@ -583,8 +577,15 @@ F 10 "C6187" H 9300 3100 50  0001 C CNN "JLCPCB Part Number"
 	1    9300 3100
 	1    0    0    1   
 $EndComp
-Text Label 3350 3100 0    50   ~ 0
-I2S_DOUT
-Text Label 3350 3200 0    50   ~ 0
-I2S_DIN
+Text Label 5050 2000 0    50   ~ 0
+V_USB
+Text Label 9650 1750 0    50   ~ 0
+V_USB
+Wire Wire Line
+	8650 1750 9050 1750
+Connection ~ 8650 1750
+Wire Wire Line
+	9300 1850 9300 2900
+Wire Wire Line
+	9550 1750 9650 1750
 $EndSCHEMATC
