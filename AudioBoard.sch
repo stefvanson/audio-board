@@ -17,26 +17,26 @@ Wire Wire Line
 	3350 3100 3850 3100
 Wire Wire Line
 	3350 3200 3850 3200
-Text Label 3550 4550 2    50   ~ 0
+Text Label 3100 4300 2    50   ~ 0
 I2S_DOUT
-Text Label 3550 4700 2    50   ~ 0
+Text Label 3100 4450 2    50   ~ 0
 I2S_DIN
 Text Label 6450 2800 2    50   ~ 0
 I2S_BCK
 Text Label 6450 2900 2    50   ~ 0
 I2S_LRCK
-Text Label 3550 5000 2    50   ~ 0
+Text Label 3100 4750 2    50   ~ 0
 I2S_BCK
-Text Label 3550 4850 2    50   ~ 0
+Text Label 3100 4600 2    50   ~ 0
 I2S_LRCK
 Wire Wire Line
-	3000 4550 3550 4550
+	2550 4300 3100 4300
 Wire Wire Line
-	3000 4700 3550 4700
+	2550 4450 3100 4450
 Wire Wire Line
-	3550 4850 3000 4850
+	3100 4600 2550 4600
 Wire Wire Line
-	3000 5000 3550 5000
+	2550 4750 3100 4750
 Wire Wire Line
 	6050 2800 6450 2800
 Wire Wire Line
@@ -270,8 +270,6 @@ POT1
 Wire Wire Line
 	6450 3300 6050 3300
 Wire Wire Line
-	6050 3200 6450 3200
-Wire Wire Line
 	6050 3100 6450 3100
 Wire Wire Line
 	6050 3000 6450 3000
@@ -424,6 +422,7 @@ F0 "MIDI" 50
 F1 "MIDI.sch" 50
 F2 "MIDI_IN" O R 2050 1150 50 
 F3 "MIDI_OUT" I R 2050 1300 50 
+F4 "MIDI_OUT2" I R 2050 1450 50 
 $EndSheet
 Wire Wire Line
 	3850 2400 3250 2400
@@ -439,7 +438,7 @@ U 1 1 5F6CA749
 P 7550 1850
 F 0 "J5" H 7600 2050 50  0000 C CNN
 F 1 "163-179PH-EX" H 7750 1650 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 8200 1950 50  0001 L CNN
+F 2 "SamacSys_Parts:BarrelJack_Horizontal" H 8200 1950 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/163-179PH-EX.pdf" H 8200 1850 50  0001 L CNN
 F 4 "DC Power Connectors PCB 2.1MM" H 8200 1750 50  0001 L CNN "Description"
 F 5 "11" H 8200 1650 50  0001 L CNN "Height"
@@ -511,14 +510,14 @@ $EndComp
 Wire Wire Line
 	4150 4750 4150 4700
 $Sheet
-S 1500 4450 1500 650 
+S 1050 4200 1500 650 
 U 5F29F5CC
 F0 "Audio IO (I2S)" 50
 F1 "AudioIO.sch" 50
-F2 "I2S_LRCK" O R 3000 4850 50 
-F3 "I2S_DIN" I R 3000 4700 50 
-F4 "I2S_DOUT" O R 3000 4550 50 
-F5 "I2S_BCK" O R 3000 5000 50 
+F2 "I2S_LRCK" O R 2550 4600 50 
+F3 "I2S_DIN" I R 2550 4450 50 
+F4 "I2S_DOUT" O R 2550 4300 50 
+F5 "I2S_BCK" O R 2550 4750 50 
 $EndSheet
 Text Label 3350 3100 0    50   ~ 0
 I2S_DOUT
@@ -566,18 +565,10 @@ Wire Wire Line
 	9300 1850 9300 2900
 Wire Wire Line
 	9550 1750 9650 1750
-Text HLabel 2050 1450 0    50   Output ~ 0
-MIDI_OUT2
 Wire Wire Line
 	2050 1300 3100 1300
 Wire Wire Line
 	3100 1300 3100 2500
-Text Label 2750 1450 2    50   ~ 0
-MIDI_OUT2
-Wire Wire Line
-	2750 1450 2050 1450
-Text Label 6450 3200 2    50   ~ 0
-MIDI_OUT2
 $Sheet
 S 9350 4300 1050 700 
 U 5F605664
@@ -589,4 +580,121 @@ F4 "POT2" O L 9350 4550 50
 F5 "POT5" O L 9350 4850 50 
 F6 "POT3" O L 9350 4650 50 
 $EndSheet
+$Comp
+L Connector:Raspberry_Pi_2_3 J12
+U 1 1 5FF61AF3
+P 3900 6900
+F 0 "J12" V 3050 5400 50  0000 L CNN
+F 1 "Raspberry_Pi_2_3" V 3150 5400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 3900 6900 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 3900 6900 50  0001 C CNN
+	1    3900 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 3200 7050 3200
+Wire Wire Line
+	7050 1450 7050 3200
+Wire Wire Line
+	2050 1450 7050 1450
+Text Label 3900 5650 3    50   ~ 0
+I2S_DOUT
+Text Label 4000 5650 3    50   ~ 0
+I2S_DIN
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6002AAD9
+P 5300 7000
+F 0 "#PWR?" H 5300 6850 50  0001 C CNN
+F 1 "+3.3V" H 5315 7173 50  0000 C CNN
+F 2 "" H 5300 7000 50  0001 C CNN
+F 3 "" H 5300 7000 50  0001 C CNN
+	1    5300 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 7000 5200 7000
+Wire Wire Line
+	5200 7000 5200 7100
+Connection ~ 5200 7000
+Wire Wire Line
+	5200 6700 5200 6800
+$Comp
+L power:+5V #PWR?
+U 1 1 600319A5
+P 5300 6700
+AR Path="/5F2A0E47/600319A5" Ref="#PWR?"  Part="1" 
+AR Path="/600319A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 6550 50  0001 C CNN
+F 1 "+5V" H 5315 6873 50  0000 C CNN
+F 2 "" H 5300 6700 50  0001 C CNN
+F 3 "" H 5300 6700 50  0001 C CNN
+	1    5300 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6700 5300 6700
+Connection ~ 5200 6700
+Text Label 4800 5650 3    50   ~ 0
+MIDI_OUT
+Text Label 3700 5650 3    50   ~ 0
+MIDI_OUT2
+Text Label 4700 5650 3    50   ~ 0
+MIDI_IN
+Text Label 6450 3200 2    50   ~ 0
+MIDI_OUT2
+Text Label 4100 5650 3    50   ~ 0
+I2S_LRCK
+Text Label 4300 5650 3    50   ~ 0
+I2S_BCK
+$Comp
+L power:GND #PWR?
+U 1 1 60033F69
+P 2500 7200
+F 0 "#PWR?" H 2500 6950 50  0001 C CNN
+F 1 "GND" H 2505 7027 50  0000 C CNN
+F 2 "" H 2500 7200 50  0001 C CNN
+F 3 "" H 2500 7200 50  0001 C CNN
+	1    2500 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6500 2600 6600
+Connection ~ 2600 6600
+Wire Wire Line
+	2600 6600 2600 6700
+Connection ~ 2600 6700
+Wire Wire Line
+	2600 6700 2600 6800
+Connection ~ 2600 6800
+Wire Wire Line
+	2600 6800 2600 6900
+Connection ~ 2600 6900
+Wire Wire Line
+	2600 6900 2600 7000
+Connection ~ 2600 7000
+Wire Wire Line
+	2600 7000 2600 7100
+Connection ~ 2600 7100
+Wire Wire Line
+	2600 7100 2600 7200
+Wire Wire Line
+	2500 7200 2600 7200
+Connection ~ 2600 7200
+Wire Wire Line
+	4100 5650 4100 6100
+Wire Wire Line
+	4300 5650 4300 6100
+Wire Wire Line
+	3900 5650 3900 6100
+Wire Wire Line
+	4000 5650 4000 6100
+Wire Wire Line
+	4800 5650 4800 6100
+Wire Wire Line
+	4700 5650 4700 6100
+Wire Wire Line
+	3700 5650 3700 6100
+Text Notes 1150 5950 0    50   ~ 0
+Note that on the Raspberry Pi 3B+ only one UART is available.\nWe have for now connected MIDI_OUT2 in case we would\nwant to implement a software UART using a regular\n(arbitrarily selected) GPIO pin for now.
 $EndSCHEMATC

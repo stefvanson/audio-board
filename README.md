@@ -31,6 +31,6 @@ If you make changes to the schematics you have to:
 - [x] Add another MIDI output (3.5mm jack)
 - [ ] Add holes for mounting the PCB in a housing.
 - [ ] Add holes/pin header for connecting to raspberry Pi
-- [ ] Align outputs
+- [x] Align outputs
 - [ ] Add labels for pin headers.
 - [ ] Update PCB version number
