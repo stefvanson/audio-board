@@ -1,33 +1,38 @@
 Comment,Designator,Footprint,LCSC
-100nF50V,"C13,C14,C17,C18,C24,C25,C30",SamacSys_Parts:CAPC3216X100N,C24497
-10nF50V,"C15,C16,C31",SamacSys_Parts:CAPC2012X65N,C1710
-2.2uF50V,"C19,C23",SamacSys_Parts:CAPC3216X180N,C50254
-22uF25V,"C1,C2",SamacSys_Parts:CAPC2012X140N,C45783
-2.2nF50V,"C28,C29",SamacSys_Parts:CAPC2012X135N,C28260
-1uF50V,"C3,C4,C5,C6,C7,C8,C11,C12",SamacSys_Parts:CAPC2012X135N,C28323
-10uF25V,"C9,C10,C20,C21,C22,C26,C27",SamacSys_Parts:CAPC2012X145N,C15850
-SM4007PL,D1,SamacSys_Parts:SODFL3718X125N,C64898
-AMS1117-5.0,IC1,SamacSys_Parts:SOT229P700X180-4N,C6187
-PCM5102APWR,IC2,SamacSys_Parts:SOP65P640X120-20N,C107671
-PCM1803ADBR,IC3,SamacSys_Parts:SOP65P780X200-20N,C32076
-I2S2_OPT,J1,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,
-57PC5F,"J13,J14",SamacSys_Parts:57PC5F,
-RCA_2x2,J15,SamacSys_Parts:PJRAS2X2S01X,
-SPI_OPT,J2,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,
-Other Teensy pins,J3,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,
-UART_OPT,J4,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,
-163-179PH-EX,J5,SamacSys_Parts:163179PHEX,
-EXTRA_POWER,J6,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,
-POT,"J7,J8,J9,J10,J11,J12",Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,
-POWER_SWITCH,JP1,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
-MODE0,JP2,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
-MODE1,JP3,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
-BYPAS,JP4,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
-470,"R1,R2,R3,R4,R5,R6,R14,R15",SamacSys_Parts:R_0805_JLCPCB,C17710
-47,"R10,R11",SamacSys_Parts:R_0805_JLCPCB,C17714
-100,"R12,R13",SamacSys_Parts:R_0805_JLCPCB,C17408
-220,"R7,R9",SamacSys_Parts:R_0402_JLCPCB,C25091
-10k,R8,SamacSys_Parts:R_0402_JLCPCB,C25744
-Teensy4.0,U1,teensy:Teensy40,
-6N138SDM,U2,Package_DIP:SMDIP-8_W9.53mm,C188666
-24.576MHz,U3,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,C27869
+10uF6.3V,C12 C20 C18 C11 C13 C4 C3 ,SamacSys_Parts:CAPC1005X70N,C15525
+10nF50V,C16 C15 ,SamacSys_Parts:CAPC2012X65N,C1710
+2.2uF50V,C19 C23 ,SamacSys_Parts:CAPC3216X180N,C50254
+22uF25V,C2 C1 ,SamacSys_Parts:CAPC2012X140N,C45783
+100nF16V,C22 C21 C10 C17 C14 C9 C7 C8 ,SamacSys_Parts:CAPC1005X55N,C1525
+2.2nF50V,C28 C29 ,SamacSys_Parts:CAPC2012X135N,C28260
+1uF25V,C5 C6 C27 C25 C30 C26 C24 ,SamacSys_Parts:CAPC1005X60N,C52923
+SM4007PL,D1 ,SamacSys_Parts:SODFL3718X125N,C64898
+AMS1117-5.0,IC1 ,SamacSys_Parts:SOT229P700X180-4N,C6187
+PCM5102APWR,IC2 ,SamacSys_Parts:SOP65P640X120-20N,C107671
+PCM1803ADBR,IC3 ,SamacSys_Parts:SOP65P780X200-20N,C32076
+I2S2_OPT,J1 ,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,
+Raspberry_Pi_2_3,J12 ,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,
+57PC5F,J13 J14 ,SamacSys_Parts:57PC5F,
+RCA_2x2,J15 ,SamacSys_Parts:PJRAS2X2S01X,
+SJ1-3523N,J16 ,SamacSys_Parts:SJ13523N,
+SPI_OPT,J2 ,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,
+Other Teensy pins,J3 ,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,
+UART_OPT,J4 ,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,
+163-179PH-EX,J5 ,SamacSys_Parts:BarrelJack_Horizontal,
+EXTRA_POWER,J6 ,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,
+POT,J7 J8 J9 J10 J11 ,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,
+Teensy supply select,JP1 ,Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical,
+MODE0,JP2 ,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
+MODE1,JP3 ,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
+BYPAS,JP4 ,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
+OSC_DIS,JP5 ,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,
+33,R10 R6 ,SamacSys_Parts:R_0805_JLCPCB,C17634
+10,R11 R16 ,SamacSys_Parts:R_1206_JLCPCB,C17903
+100,R12 R13 ,SamacSys_Parts:R_0805_JLCPCB,C17408
+470,R14 R15 R1 R2 R3 R4 R5 ,SamacSys_Parts:R_0805_JLCPCB,C17710
+220,R7 R9 ,SamacSys_Parts:R_0402_JLCPCB,C25091
+10k,R8 R17 ,SamacSys_Parts:R_0402_JLCPCB,C25744
+TestPoint,TP1 ,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,
+Teensy4.0,U1 ,teensy:Teensy40,
+6N138SDM,U2 ,Package_DIP:SMDIP-8_W9.53mm,C188666
+24.576MHz,U3 ,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,C27869
