@@ -284,7 +284,7 @@ Wire Wire Line
 	1900 5400 2700 5400
 Text HLabel 1750 5600 0    50   Input ~ 0
 I2S_LRCK
-Text HLabel 7300 2350 2    50   Output ~ 0
+Text HLabel 7500 2350 2    50   Output ~ 0
 I2S_DIN
 Text HLabel 1750 5700 0    50   Input ~ 0
 I2S_DOUT
@@ -293,13 +293,11 @@ I2S_BCK
 Wire Wire Line
 	2700 6000 2700 5900
 Connection ~ 2700 6000
-Text HLabel 5700 2450 0    50   Input ~ 0
+Text HLabel 5550 2450 0    50   Input ~ 0
 I2S_LRCK
 Wire Wire Line
-	5700 2450 6000 2450
-Wire Wire Line
 	1750 5800 2700 5800
-Text HLabel 7300 2450 2    50   Input ~ 0
+Text HLabel 7500 2450 2    50   Input ~ 0
 I2S_BCK
 $Comp
 L power:GND #PWR064
@@ -333,10 +331,6 @@ F 3 "" H 8000 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 2450 8000 2500
-Wire Wire Line
-	7200 2350 7300 2350
-Wire Wire Line
-	7200 2450 7300 2450
 $Comp
 L power:+3.3V #PWR066
 U 1 1 5F368926
@@ -1199,4 +1193,69 @@ F 8 "C15525" H 1400 4850 50  0001 C CNN "JLCPCB Part Number"
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1400 4850
+$Comp
+L Connector_Generic:Conn_01x06 J17
+U 1 1 5FEBF30D
+P 4400 3400
+F 0 "J17" V 4272 3680 50  0000 L CNN
+F 1 "Conn_01x06" V 4363 3680 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4400 3400 50  0001 C CNN
+F 3 "~" H 4400 3400 50  0001 C CNN
+	1    4400 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5FEC11FB
+P 4600 2800
+F 0 "#PWR0108" H 4600 2650 50  0001 C CNN
+F 1 "+5V" H 4615 2973 50  0000 C CNN
+F 2 "" H 4600 2800 50  0001 C CNN
+F 3 "" H 4600 2800 50  0001 C CNN
+	1    4600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5FEC158E
+P 4500 2800
+F 0 "#PWR0109" H 4500 2550 50  0001 C CNN
+F 1 "GND" V 4505 2672 50  0000 R CNN
+F 2 "" H 4500 2800 50  0001 C CNN
+F 3 "" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	-1   0    0    1   
+$EndComp
+Text Label 5600 2450 0    50   ~ 0
+I2S_LRCK
+Wire Wire Line
+	5550 2450 6000 2450
+Text Label 4400 2800 3    50   ~ 0
+I2S_LRCK
+Wire Wire Line
+	4400 3200 4400 2800
+Wire Wire Line
+	4600 2800 4600 3200
+Wire Wire Line
+	4500 2800 4500 3200
+Text Label 7200 2350 0    50   ~ 0
+I2S_DIN
+Wire Wire Line
+	7200 2350 7500 2350
+Wire Wire Line
+	7200 2450 7500 2450
+Text Label 7200 2450 0    50   ~ 0
+I2S_BCK
+Text Label 4200 2800 3    50   ~ 0
+I2S_BCK
+Wire Wire Line
+	4200 2800 4200 3200
+Text Label 4300 2800 3    50   ~ 0
+I2S_DIN
+Wire Wire Line
+	4300 2800 4300 3200
+Text Label 4100 2800 3    50   ~ 0
+SCK
+Wire Wire Line
+	4100 2800 4100 3200
 $EndSCHEMATC
