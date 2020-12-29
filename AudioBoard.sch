@@ -697,4 +697,25 @@ Wire Wire Line
 	3700 5650 3700 6100
 Text Notes 1150 5950 0    50   ~ 0
 Note that on the Raspberry Pi 3B+ only one UART is available.\nWe have for now connected MIDI_OUT2 in case we would\nwant to implement a software UART using a regular\n(arbitrarily selected) GPIO pin for now.
+NoConn ~ 3200 6100
+NoConn ~ 3300 6100
+NoConn ~ 3400 6100
+NoConn ~ 3500 6100
+NoConn ~ 3600 6100
+NoConn ~ 4400 6100
+NoConn ~ 4500 6100
+NoConn ~ 4800 7700
+NoConn ~ 4700 7700
+NoConn ~ 4500 7700
+NoConn ~ 4400 7700
+NoConn ~ 4200 7700
+NoConn ~ 4100 7700
+NoConn ~ 4000 7700
+NoConn ~ 3800 7700
+NoConn ~ 3700 7700
+NoConn ~ 3600 7700
+NoConn ~ 3500 7700
+NoConn ~ 3400 7700
+NoConn ~ 3200 7700
+NoConn ~ 3100 7700
 $EndSCHEMATC

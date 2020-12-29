@@ -22,7 +22,7 @@ If you make changes to the schematics you have to:
 - [x] MIDI connectors are rotated 180 degrees.
 - [x] Fix MIDI Out pin routing (swap pin 4 and 5).
 - [x] Fix MIDI Out resistors for 3.3V and change 5V to 3.3V
-- [ ] Make it more compact.
+- [x] Make it more compact.
 - [x] Change the footprint of the power connector.
 - [x] Test UART
 - [x] Connect VDD of Crystal
@@ -30,7 +30,7 @@ If you make changes to the schematics you have to:
 - [x] Use capacitors with lower voltage ratings
 - [x] Add another MIDI output (3.5mm jack)
 - [ ] Add holes for mounting the PCB in a housing.
-- [ ] Add holes/pin header for connecting to raspberry Pi
+- [x] Add holes/pin header for connecting to raspberry Pi
 - [x] Align outputs
 - [ ] Add labels for pin headers.
 - [ ] Update PCB version number
