@@ -58,3 +58,5 @@ If you make changes to the schematics you have to:
 - [x] Align outputs
 - [x] Add labels for pin headers.
 - [x] Update PCB version number
+- [ ] The mounting holes for the Pi Innovo are ground and 3V3 on different sides
+      so metal spacers conduct and create a short!
